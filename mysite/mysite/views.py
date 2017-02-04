@@ -22,3 +22,5 @@ def hours_ahead(request, offset):
 def home(request):
     return render(request, 'home.html')
     
+def view_map(request):
+    return render(request, 'map.html')

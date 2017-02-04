@@ -33,12 +33,11 @@ li a:hover:not(.active) {
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-
 <ul>
-    <li><a {% block activehome %}{% endblock %}  href="#map">Home</a></li>
-    <li><a {% block activemap %}{% endblock %}      href="#map">Map</a></li>
-    <li><a {% block activecontact %}{% endblock %}  href="#contact">Upload</a></li>
-    <li><a {% block activeabout %}{% endblock %}    href="#about">Download</a></li>
+    <li><a {% block activehome %}{% endblock %}     href="home">Home</a></li>
+    <li><a {% block activemap %}{% endblock %}      href="map">Map</a></li>
+    <li><a {% block activecontact %}{% endblock %}  href="upload">Upload</a></li>
+    <li><a {% block activeabout %}{% endblock %}    href="download">Download</a></li>
 </ul>
 
 {% block content %}{% endblock %}
