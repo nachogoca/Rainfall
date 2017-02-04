@@ -30,15 +30,18 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 </style>
+    <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
 
 <ul>
-  <li><a class="active" href="#map">Home</a></li>
-  <li><a href="#map">Map</a></li>
-  <li><a href="#contact">Upload</a></li>
-  <li><a href="#about">Download</a></li>
+    <li><a {% block activehome %}{% endblock %}  href="#map">Home</a></li>
+    <li><a {% block activemap %}{% endblock %}      href="#map">Map</a></li>
+    <li><a {% block activecontact %}{% endblock %}  href="#contact">Upload</a></li>
+    <li><a {% block activeabout %}{% endblock %}    href="#about">Download</a></li>
 </ul>
+
+{% block content %}{% endblock %}
 
 </body>
 </html>

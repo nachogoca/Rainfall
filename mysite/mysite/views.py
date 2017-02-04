@@ -20,5 +20,5 @@ def hours_ahead(request, offset):
     return HttpResponse(html)
 
 def home(request):
-    return render(request, 'navbar.html')
+    return render(request, 'home.html')
     
