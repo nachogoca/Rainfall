@@ -15,13 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from mysite.views import hello, current_datetime, hours_ahead, home, view_map
+from mysite.views import hello, current_datetime, hours_ahead, view_home, view_map, view_download, view_upload
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^hello/$', hello),
-    url(r'^home/$', home),
-    url(r'^map/$', view_map),
+    url(r'^hello/$', hello, name='mysite.views.hello'),
+    url(r'^$', view_home, name='mysite.views.view_home'),
+    url(r'^map/$', view_map, name='mysite.views.view_map'),
+    url(r'^upload/$', view_upload, name='mysite.views.view_upload'),
+    url(r'^download/$', view_download, name='mysite.views.view_download'),
     url(r'^time/$', current_datetime),
     url(r'^time/plus/(\d{1,2})/$', hours_ahead),
 ]

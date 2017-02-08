@@ -19,8 +19,14 @@ def hours_ahead(request, offset):
     html = "In %s hours(s), it will be %s." % (offset, dt)
     return HttpResponse(html)
 
-def home(request):
+def view_home(request):
     return render(request, 'home.html')
     
 def view_map(request):
     return render(request, 'map.html')
+
+def view_upload(request):
+    return render(request, 'upload.html')
+
+def view_download(request):
+    return render(request, 'download.html')
