@@ -4,8 +4,13 @@
 {% block activemap %}class="active"{% endblock %}
 
 {% block content %}
-<p>
-    This is map content. Modify here.
-</p>
+{% load leaflet_tags %}
+
+    {% leaflet_js %}
+    {% leaflet_css %}   
+    <p>
+        This is map content. Modify here.
+    </p>
+    {% leaflet_map "map" %}
 {% endblock %}
 
