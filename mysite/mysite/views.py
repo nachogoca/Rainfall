@@ -22,8 +22,14 @@ def hours_ahead(request, offset):
 def view_home(request):
     return render(request, 'home.html')
     
-def view_map(request):
-    return render(request, 'map.html')
+def view_project(request):
+    return render(request, 'project.html')
+
+def view_observatories(request):
+    return render(request, 'observatories.html')
+
+def view_rainfall(request):
+    return render(request, 'rainfall.html')
 
 def view_upload(request):
     return render(request, 'upload.html')

@@ -35,7 +35,9 @@ li a:hover:not(.active) {
 <body>
 <ul>
     <li><a {% block activehome %}{% endblock %}     href="{% url 'mysite.views.view_home' %}">Home</a></li>
-    <li><a {% block activemap %}{% endblock %}      href="{% url 'mysite.views.view_map' %}">Map</a></li>
+    <li><a {% block activeproject %}{% endblock %}     href="{% url 'mysite.views.view_project' %}">Project</a></li>
+    <li><a {% block activeobservatories %}{% endblock %}      href="{% url 'mysite.views.view_observatories' %}">Observatories</a></li>
+    <li><a {% block activerainfall %}{% endblock %}      href="{% url 'mysite.views.view_rainfall' %}">Rainfall</a></li>
     <li><a {% block activeupload %}{% endblock %}  href="{% url 'mysite.views.view_upload' %}">Upload</a></li>
     <li><a {% block activedownload %}{% endblock %}    href="{% url 'mysite.views.view_download' %}">Download</a></li>
 </ul>

@@ -1,0 +1,25 @@
+{% extends "navbar.html" %}
+
+{% block title %}Rainfall{% endblock %}
+{% block activerainfall %}class="active"{% endblock %}
+
+{% block content %}
+{% load leaflet_tags %}
+
+    {% leaflet_js %}
+    {% leaflet_css %}   
+    {% leaflet_map "rainfall" callback="mapInit" %}
+
+    <script type="text/javascript">
+        
+        function mapInit(map, options) {
+
+            map.setView([20.65, -103.34], 8);
+
+            map.locate({setView: true, maxZoom: 10});
+        };
+
+    </script>
+
+{% endblock %}
+

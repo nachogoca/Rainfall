@@ -4,8 +4,13 @@
 {% block activeupload %}class="active"{% endblock %}
 
 {% block content %}
+<p>Press the button to upload a file!</p>
+<form action="#" method="get">
+    <input type="submit" class="btn" value="upload" name="uploadbtn"/>
+</form>
 <p>
-    This is upload content. Modify here.
+    File must have the following contents
 </p>
+
 {% endblock %}
 

@@ -1,0 +1,28 @@
+{% extends "navbar.html" %}
+
+{% block title %}Observatories{% endblock %}
+{% block activeobservatories %}class="active"{% endblock %}
+
+{% block content %}
+{% load leaflet_tags %}
+
+    {% leaflet_js %}
+    {% leaflet_css %}   
+    {% leaflet_map "observatories" callback="mapInit" %}
+
+    <script type="text/javascript">
+        
+        function mapInit(map, options) {
+
+            map.setView([20.65, -103.34], 8);
+
+            //map.locate({setView: true, maxZoom: 10});
+
+            var marker = L.marker([20.6090, -103.4147]).addTo(map);
+            marker.bindPopup("This is ITESO");
+        };
+
+    </script>
+
+{% endblock %}
+
