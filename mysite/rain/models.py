@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 class Observatory(models.Model):
     user = models.ForeignKey(User)
     name = models.CharField(max_length=30)
+    about = models.CharField(max_length=200, blank=True)
     creation_date = models.DateField()
 
     def __str__(self):
@@ -13,6 +14,7 @@ class Observatory(models.Model):
 class ObservatoryLocation(models.Model):
     observatory = models.ForeignKey(Observatory)
     location = models.PointField(srid=4326)
+    about = models.CharField(max_length=200, blank=True)
 
     def __str__(self):
         return self.location
