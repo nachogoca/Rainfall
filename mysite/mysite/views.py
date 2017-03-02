@@ -31,8 +31,5 @@ def view_observatories(request):
 def view_rainfall(request):
     return render(request, 'rainfall.html')
 
-def view_upload(request):
-    return render(request, 'upload.html')
-
 def view_download(request):
     return render(request, 'download.html')
