@@ -15,16 +15,16 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from mysite.views import hello, current_datetime, hours_ahead, view_home, view_observatories, view_rainfall, view_download, view_project
+from mysite.views import hello, current_datetime, hours_ahead, view_home, view_observatories, view_rainfall, view_download, view_project, view_upload
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^login/$', auth_views.login, {'template_name':'login.html'}, name='login'),
-    url(r'^logout/$', auth_views.logout, {'next_page': '/login'}, name='logout'),
-    url(r'^upload/', include('login.urls')),
-    url(r'^hello/$', hello, name='mysite.views.hello'),
     url(r'^$', view_home, name='mysite.views.view_home'),
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'^login/$', auth_views.login, {'template_name':'login.html', 'redirect_field_name':'mysite.views.view_home'}, name='login'),
+    url(r'^logout/$', auth_views.logout, {'next_page': '/login/'}, name='logout'),
+    url(r'^upload/', view_upload, name='mysite.views.view_upload'),
+    url(r'^hello/$', hello, name='mysite.views.hello'),
     url(r'^project/$', view_project, name='mysite.views.view_project'),
     url(r'^observatories/$', view_observatories, name='mysite.views.view_observatories'),
     url(r'^rainfall/$', view_rainfall, name='mysite.views.view_rainfall'),

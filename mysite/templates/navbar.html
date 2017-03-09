@@ -38,8 +38,14 @@ li a:hover:not(.active) {
     <li><a {% block activeproject %}{% endblock %}     href="{% url 'mysite.views.view_project' %}">Project</a></li>
     <li><a {% block activeobservatories %}{% endblock %}      href="{% url 'mysite.views.view_observatories' %}">Observatories</a></li>
     <li><a {% block activerainfall %}{% endblock %}      href="{% url 'mysite.views.view_rainfall' %}">Rainfall</a></li>
-    <li><a {% block activeupload %}{% endblock %}  href="{% url 'login.views.view_upload' %}">Upload</a></li>
+    <li><a {% block activeupload %}{% endblock %}  href="{% url 'mysite.views.view_upload' %}">Upload</a></li>
     <li><a {% block activedownload %}{% endblock %}    href="{% url 'mysite.views.view_download' %}">Download</a></li>
+    {% if user.is_authenticated %}
+        <li><a href="{%  url 'logout' %}">Log Out</a></li>
+    {% else %}
+        <li><a href="{% url 'login' %}">Log In</a></li>
+        <li><a Sign In</a></li>
+    {% endif %}
 </ul>
 
 {% block content %}{% endblock %}
