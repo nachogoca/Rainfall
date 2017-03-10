@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.views.generic.edit import CreateView
+from django.contrib.auth.forms import UserCreationForm
 from mysite.views import hello, current_datetime, hours_ahead, view_home, view_observatories, view_rainfall, view_download, view_project, view_upload
 from django.contrib.auth import views as auth_views
 
@@ -23,6 +25,11 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^login/$', auth_views.login, {'template_name':'login.html', 'redirect_field_name':'mysite.views.view_home'}, name='login'),
     url(r'^logout/$', auth_views.logout, {'next_page': '/login/'}, name='logout'),
+    url(r'^register/$', CreateView.as_view(
+            template_name='register.html',
+            form_class=UserCreationForm,
+            success_url='/login/'
+    ), name='register'),
     url(r'^upload/', view_upload, name='mysite.views.view_upload'),
     url(r'^hello/$', hello, name='mysite.views.hello'),
     url(r'^project/$', view_project, name='mysite.views.view_project'),

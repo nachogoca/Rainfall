@@ -44,7 +44,7 @@ li a:hover:not(.active) {
         <li><a href="{%  url 'logout' %}">Log Out</a></li>
     {% else %}
         <li><a href="{% url 'login' %}">Log In</a></li>
-        <li><a Sign In</a></li>
+        <li><a href="{% url 'register' %}"> Sign In</a></li>
     {% endif %}
 </ul>
 
