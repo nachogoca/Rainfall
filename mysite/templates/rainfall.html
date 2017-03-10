@@ -5,11 +5,13 @@
 
 {% block content %}
 {% load leaflet_tags %}
+{% load static %}
 
-    {% leaflet_js %}
-    {% leaflet_css %}   
-    {% leaflet_map "rainfall" callback="mapInit" %}
+{% leaflet_js %}
+{% leaflet_css %}
+{% leaflet_map "rainfall" callback="mapInit" %}
 
+    <link rel="stylesheet" type="text/css" href="{% static 'rain/rainfall.css' %}"/>
     <script type="text/javascript">
         
         function mapInit(map, options) {
