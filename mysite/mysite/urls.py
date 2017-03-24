@@ -17,7 +17,8 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from django.views.generic.edit import CreateView
 from django.contrib.auth.forms import UserCreationForm
-from mysite.views import hello, current_datetime, hours_ahead, view_home, view_observatories, view_rainfall, view_download, view_project, view_upload
+from mysite.views import *
+from rain import views as rain_views
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
@@ -31,11 +32,9 @@ urlpatterns = [
             success_url='/login/'
     ), name='register'),
     url(r'^upload/', view_upload, name='mysite.views.view_upload'),
-    url(r'^hello/$', hello, name='mysite.views.hello'),
     url(r'^project/$', view_project, name='mysite.views.view_project'),
-    url(r'^observatories/$', view_observatories, name='mysite.views.view_observatories'),
+    url(r'^observatories/create$', rain_views.create_observatory, name='rain.views.create_observatory'),
+    url(r'^observatories/', view_observatories, name='mysite.views.view_observatories'),
     url(r'^rainfall/$', view_rainfall, name='mysite.views.view_rainfall'),
     url(r'^download/$', view_download, name='mysite.views.view_download'),
-    url(r'^time/$', current_datetime),
-    url(r'^time/plus/(\d{1,2})/$', hours_ahead),
 ]

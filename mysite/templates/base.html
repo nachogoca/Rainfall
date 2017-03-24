@@ -37,16 +37,12 @@
                         <li>
                             <a href="/">Home</a>
                         </li>
-                        <li>
-                            <a href="#">Another action</a>
-                        </li>
-                        <li>
-                            <a href="#">Something else here</a>
-                        </li>
                         <li class="divider"></li>
-                        <li>
-                            <a href="#">Separated link</a>
-                        </li>
+                        {%  if user.is_authenticated %}
+                            <li>
+                                <a href="{% url 'rain.views.create_observatory' %}">Create observatory</a>
+                            </li>
+                        {% endif %}
                         <li class="divider"></li>
                         <li>
                             {% if user.is_authenticated %}
