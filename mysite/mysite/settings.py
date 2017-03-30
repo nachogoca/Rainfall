@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.gis',
     'rain',
     'leaflet',
-    'osm_field',
+    'mapwidgets',
 ]
 
 MIDDLEWARE = [
@@ -136,3 +136,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Redirect login
 LOGIN_REDIRECT_URL = '/'
+
+MAP_WIDGETS = {
+    "GooglePointFieldWidget": (
+        ("zoom", 15),
+        ("mapCenterLocationName", "london"),
+        ("GooglePlaceAutocompleteOptions", {'componentRestrictions': {'country': 'uk'}}),
+        ("markerFitZoom", 12),
+    ),
+    "GOOGLE_MAP_API_KEY": "AIzaSyCNXkIxfdsEBQW_KYPXXppkeepzXe0bFXY"
+}
