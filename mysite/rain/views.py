@@ -21,7 +21,7 @@ def create_observatory(request):
             print(obs.name)
             print(obs.about)
             print(obs.location)
-            # obs.save()
+            obs.save()
     else:
         form = CreateObservatoryForm()
     return render(request, 'create_observatory.html', {'form':form})

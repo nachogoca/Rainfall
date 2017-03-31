@@ -140,7 +140,7 @@ LOGIN_REDIRECT_URL = '/'
 MAP_WIDGETS = {
     "GooglePointFieldWidget": (
         ("zoom", 15),
-        ("mapCenterLocationName", "london"),
+        ("mapCenterLocationName", "Guadalajara"),
         ("GooglePlaceAutocompleteOptions", {'componentRestrictions': {'country': 'uk'}}),
         ("markerFitZoom", 12),
     ),

@@ -8,10 +8,10 @@ class Observatory(models.Model):
     about = models.CharField(max_length=200, blank=True)
     location = models.PointField(srid=4326)
     creation_date = models.DateField()
-
     objects = models.GeoManager()
+
     def __str__(self):
-        return self.name
+        return '%s %s %s %s %s' % (self.name, self.user, self.about, self.location, self.creation_date)
 
 
 class PrecipitationMeasurement(models.Model):
