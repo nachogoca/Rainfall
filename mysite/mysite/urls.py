@@ -24,17 +24,15 @@ from django.contrib.auth import views as auth_views
 urlpatterns = [
     url(r'^$', view_home, name='mysite.views.view_home'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^login/$', auth_views.login, {'template_name':'login.html', 'redirect_field_name':'mysite.views.view_home'}, name='login'),
+    url(r'^login/$', auth_views.login, {'template_name': 'login.html', 'redirect_field_name': 'mysite.views.view_home'},
+        name='login'),
     url(r'^logout/$', auth_views.logout, {'next_page': '/login/'}, name='logout'),
-    url(r'^register/$', CreateView.as_view(
-            template_name='register.html',
-            form_class=UserCreationForm,
-            success_url='/login/'
-    ), name='register'),
+    url(r'^register/$',
+        CreateView.as_view(template_name='register.html', form_class=UserCreationForm, success_url='/login/'),
+        name='register'),
     url(r'^upload/', view_upload, name='mysite.views.view_upload'),
     url(r'^project/$', view_project, name='mysite.views.view_project'),
-    url(r'^observatories/create$', rain_views.create_observatory, name='rain.views.create_observatory'),
-    url(r'^observatories/', view_observatories, name='mysite.views.view_observatories'),
+    url(r'^observatories/', include('rain.urls')),
     url(r'^rainfall/$', view_rainfall, name='mysite.views.view_rainfall'),
     url(r'^download/$', view_download, name='mysite.views.view_download'),
 ]

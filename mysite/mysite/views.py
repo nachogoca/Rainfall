@@ -11,8 +11,8 @@ def view_project(request):
     return render(request, 'project.html')
 
 
-def view_observatories(request):
-    return render(request, 'observatories.html')
+# def view_observatories(request):
+#     return render(request, 'observatories.html')
 
 
 def view_rainfall(request):

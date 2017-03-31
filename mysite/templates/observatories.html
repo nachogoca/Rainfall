@@ -21,11 +21,17 @@
 
             //map.locate({setView: true, maxZoom: 10});
 
-            var marker = L.marker([20.6090, -103.4147]).addTo(map);
-            marker.bindPopup("This is ITESO");
+            {% for observatory in observatories %}
+                var marker = L.marker([{{ observatory.location.y }}, {{ observatory.location.x }}]).addTo(map);
+                marker.bindPopup("<b>{{ observatory.name }}</b><br>{{ observatory.about }}");
+            {% endfor %}
         };
 
     </script>
-
+<ol>
+    {% for observatory in observatories %}
+    <li>{{ observatory.location }}</li>
+    {% endfor %}
+</ol>
 {% endblock %}
 

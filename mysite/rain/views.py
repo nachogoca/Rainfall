@@ -1,9 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .forms import CreateObservatoryForm
-# from .forms import TestForm
-# Create your views here.
+from .models import Observatory
 
 
 @login_required(login_url='/login/')
@@ -16,7 +15,12 @@ def create_observatory(request):
             obs.creation_date = timezone.now()
             obs.user_id = request.user.id
             obs.save()
-            return render(request, "observatories.html")
+            return redirect('rain.views.view_observatories')
     else:
         form = CreateObservatoryForm()
     return render(request, 'create_observatory.html', {'form':form})
+
+
+def view_observatories(request):
+    observatories = Observatory.objects.all()
+    return render(request, 'observatories.html', {'observatories': observatories})
