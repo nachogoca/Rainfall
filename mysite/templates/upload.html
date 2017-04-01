@@ -8,12 +8,20 @@
     <p>Please create an observatory</p>
         <a href="{% url 'rain.views.create_observatory' %}">Please create an observatory.</a>
     {% else %}
-<p>Press the button to upload a file!</p>
+<h3>In this section you can upload observations made by your observatory.</h3>
 <form action="#" method="get">
-    <input type="submit" class="btn btn-primary" value="upload" name="uploadbtn"/>
+    <div class="form-group">
+        <label for="sel1">Select observatory</label>
+        <select class="form-control" id="sel1">
+            {% for obs in observatories %}
+            <option>{{ obs.name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <input type="submit" class="btn btn-default" value="File upload" name="uploadbtn"/>
 </form>
 <p>
-    File must have the following contents
+    File example
 </p>
     {% endif %}
 {% endblock %}
