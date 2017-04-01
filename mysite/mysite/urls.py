@@ -30,7 +30,6 @@ urlpatterns = [
     url(r'^register/$',
         CreateView.as_view(template_name='register.html', form_class=UserCreationForm, success_url='/login/'),
         name='register'),
-    url(r'^upload/', view_upload, name='mysite.views.view_upload'),
     url(r'^project/$', view_project, name='mysite.views.view_project'),
     url(r'^observatories/', include('rain.urls')),
     url(r'^rainfall/$', view_rainfall, name='mysite.views.view_rainfall'),

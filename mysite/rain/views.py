@@ -24,3 +24,9 @@ def create_observatory(request):
 def view_observatories(request):
     observatories = Observatory.objects.all()
     return render(request, 'observatories.html', {'observatories': observatories})
+
+
+@login_required(login_url='/login/')
+def upload(request):
+    observatories = Observatory.objects.filter(user=request.user.id)
+    return render(request, 'upload.html', {'observatories': observatories})

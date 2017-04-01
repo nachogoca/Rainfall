@@ -4,13 +4,16 @@
 {% block activeupload %}class="active"{% endblock %}
 
 {% block content %}
+    {% if observatories.count == 0 %}
+    <h1>Please create and observatory</h1>
+    {% else %}
 <p>Press the button to upload a file!</p>
 <form action="#" method="get">
-    <input type="submit" class="btn" value="upload" name="uploadbtn"/>
+    <input type="submit" class="btn btn-primary" value="upload" name="uploadbtn"/>
 </form>
 <p>
     File must have the following contents
 </p>
-
+    {% endif %}
 {% endblock %}
 
