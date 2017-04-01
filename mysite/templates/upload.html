@@ -5,7 +5,8 @@
 
 {% block content %}
     {% if observatories.count == 0 %}
-    <h1>Please create and observatory</h1>
+    <p>Please create an observatory</p>
+        <a href="{% url 'rain.views.create_observatory' %}">Please create an observatory.</a>
     {% else %}
 <p>Press the button to upload a file!</p>
 <form action="#" method="get">
