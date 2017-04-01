@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rain',
     'leaflet',
     'mapwidgets',
+    'bootstrap3'
 ]
 
 MIDDLEWARE = [
@@ -141,8 +142,9 @@ MAP_WIDGETS = {
     "GooglePointFieldWidget": (
         ("zoom", 15),
         ("mapCenterLocationName", "Guadalajara"),
-        ("GooglePlaceAutocompleteOptions", {'componentRestrictions': {'country': 'uk'}}),
-        ("markerFitZoom", 12),
+        ("GooglePlaceAutocompleteOptions", {'componentRestrictions': {'country': 'mx'}}),
+        ("markerFitZoom", 18),
+        ("size", "240x240")
     ),
     "GOOGLE_MAP_API_KEY": "AIzaSyCNXkIxfdsEBQW_KYPXXppkeepzXe0bFXY"
 }

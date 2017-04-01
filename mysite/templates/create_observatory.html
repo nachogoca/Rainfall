@@ -1,11 +1,12 @@
 {% extends "base.html" %}
-
+{% load bootstrap3 %}
 {% block title %}Create observatory{% endblock %}
 {% block content %}
     <h1>New observatory</h1>
     <form method="POST" class="post-form"> {% csrf_token %}
+{#        {{ form.media.css }}#}
         {{ form.media }}
-        {{ form.as_p }}
-        <button type="submit" class="button">Save</button>
+        {% bootstrap_form  form layout='inline'%}
+        <button type="submit" class="btn btn-primary">Save</button>
     </form>
 {% endblock %}

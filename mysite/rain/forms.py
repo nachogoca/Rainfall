@@ -7,4 +7,4 @@ class CreateObservatoryForm(forms.ModelForm):
     class Meta(object):
         model = Observatory
         exclude = ['user', 'creation_date']
-        widgets = {'location': GooglePointFieldWidget()}
+        widgets = {'location': GooglePointFieldWidget}
