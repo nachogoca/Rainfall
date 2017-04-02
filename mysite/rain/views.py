@@ -1,4 +1,4 @@
-import csv
+import csv, json
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
@@ -37,14 +37,16 @@ def upload(request):
         else:
             return redirect('rain.views.upload')
 
-        for line in file:
+        json_str = file.read().decode('utf-8')
+        json_obj = json.loads(json_str)
 
+        for obs_obj in json_obj:
             data = {'observatory': obs_id,
-                    'rainfall_rate': 1.32,
-                    'precipitation_24hr': 45.2}
+                    'rainfall_rate': obs_obj['rainfall_rate'],
+                    'precipitation_24hr': obs_obj['precipitation_24hr']}
             obs_form = ObservationForm(data=data)
             obs = obs_form.save(commit=False)
-            print("to be saved")
+            print("\nto be saved\n")
             print(obs.observatory)
             print(obs.rainfall_rate)
             print(obs.precipitation_24hr)
