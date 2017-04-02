@@ -22,3 +22,9 @@ class PrecipitationMeasurement(models.Model):
 
     def __str__(self):
         return u'%s %s' % (self.precipitation_24hr, self.rainfall_rate)
+
+
+class File(models.Model):
+    docfile = models.FileField(upload_to='upload/%Y/%m/%d')
+
+

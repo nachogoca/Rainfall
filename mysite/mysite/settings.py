@@ -41,8 +41,12 @@ INSTALLED_APPS = [
     'rain',
     'leaflet',
     'mapwidgets',
-    'bootstrap3'
+    'bootstrap3',
+    'import_export',
 ]
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
