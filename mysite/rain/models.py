@@ -19,6 +19,7 @@ class PrecipitationMeasurement(models.Model):
     observatory = models.ForeignKey(Observatory)
     precipitation_24hr = models.FloatField()
     rainfall_rate = models.FloatField()
+    measure_datetime = models.DateTimeField()
 
     def __str__(self):
         return u'%s %s' % (self.precipitation_24hr, self.rainfall_rate)

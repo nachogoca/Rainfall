@@ -1,1 +1,17 @@
-[{"datetime": "2017-04-02 15:37:10.007779", "precipitation_24hr": 453.2, "rainfall_rate": 1.43}, {"datetime": "2017-04-02 15:37:10.007779", "precipitation_24hr": 453.2, "rainfall_rate": 1.43}]
+[
+    {
+        "measure_datetime": "2017-04-02T17:02:15.254800",
+        "precipitation_24hr": 452.6,
+        "rainfall_rate": 67.01
+    },
+    {
+        "measure_datetime": "2017-04-02T17:02:30.254800",
+        "precipitation_24hr": 152.32,
+        "rainfall_rate": 13.95
+    },
+    {
+        "measure_datetime": "2017-04-02T17:02:45.254800",
+        "precipitation_24hr": 194.83,
+        "rainfall_rate": 35.54
+    }
+]

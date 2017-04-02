@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Upload{% endblock %}
+{% block activeupload %}class="active"{% endblock %}
+
+{% block content %}
+    <h3>An error has occurred.</h3>
+    <a href="{% url 'rain.views.upload' %}">Please try again.</a>
+{#<p>#}
+{#    Download file example#}
+{#</p>#}
+{% endblock %}
+

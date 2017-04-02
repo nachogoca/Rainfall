@@ -1,4 +1,5 @@
 import csv, json
+import dateutil.parser
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
@@ -37,26 +38,23 @@ def upload(request):
         else:
             return redirect('rain.views.upload')
 
-        json_str = file.read().decode('utf-8')
-        json_obj = json.loads(json_str)
+        try:
+            json_str = file.read().decode('utf-8')
+            json_obj = json.loads(json_str)
 
-        for obs_obj in json_obj:
-            data = {'observatory': obs_id,
-                    'rainfall_rate': obs_obj['rainfall_rate'],
-                    'precipitation_24hr': obs_obj['precipitation_24hr']}
-            obs_form = ObservationForm(data=data)
-            obs = obs_form.save(commit=False)
-            print("\nto be saved\n")
-            print(obs.observatory)
-            print(obs.rainfall_rate)
-            print(obs.precipitation_24hr)
-
-        return redirect('rain.views.view_observatories')
+            for obs_obj in json_obj:
+                data = {'observatory': obs_id,
+                        'rainfall_rate': obs_obj['rainfall_rate'],
+                        'precipitation_24hr': obs_obj['precipitation_24hr'],
+                        'measure_datetime': dateutil.parser.parse(obs_obj['measure_datetime'])}
+                obs_form = ObservationForm(data=data)
+                obs_form.save()
+        except:
+            return render(request, "upload_error.html")
+        else:
+            return render(request, "upload_success.html")
     else:
         observatories_form = OnlyUserObservatoryForm(user=request.user.id)
     return render(request, 'upload.html', {'observatories_form': observatories_form})
 
 
-@login_required(login_url='/login/')
-def upload_success(request):
-    return render(request, 'project.html') # TODO Create success page

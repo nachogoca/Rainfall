@@ -3,7 +3,6 @@ from . import views as rviews
 
 urlpatterns = [
     url(r'^create$', rviews.create_observatory, name='rain.views.create_observatory'),
-    url(r'^upload/success$', rviews.upload_success, name='rain.views.upload_success'),
     url(r'^upload$', rviews.upload, name='rain.views.upload'),
     url(r'$', rviews.view_observatories, name="rain.views.view_observatories"),
 ]

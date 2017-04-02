@@ -10,6 +10,7 @@ class CreateObservatoryForm(forms.ModelForm):
         widgets = {'location': GooglePointFieldWidget}
 
 
+# For dropdown menu in upload page
 class OnlyUserObservatoryForm(forms.ModelForm):
     class Meta(object):
         model = PrecipitationMeasurement
@@ -24,7 +25,7 @@ class OnlyUserObservatoryForm(forms.ModelForm):
 class ObservationForm(forms.ModelForm):
     class Meta(object):
         model = PrecipitationMeasurement
-        fields = ['observatory', 'precipitation_24hr', 'rainfall_rate']
+        exclude = []
 
 
 class UploadForm(forms.Form):

@@ -6,27 +6,21 @@
 
 {% block content %}
     {% if observatories.count == 0 %}
-    <p>Please create an observatory</p>
+        <p>Please create an observatory</p>
         <a href="{% url 'rain.views.create_observatory' %}">Please create an observatory.</a>
     {% else %}
 <h3>In this section you can upload observations made by your observatory.</h3>
 <form method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {% bootstrap_form observatories_form %}
-{#    <div class="form-group">#}
-{#        <label for="sel1">Select observatory</label>#}
-{#        <select class="form-control" id="sel1">#}
-{#            {% for obs in observatories %}#}
-{#            <option>{{ obs.name }}</option>#}
-{#            {% endfor %}#}
-{#        </select>#}
-{#    </div>#}
-    <input type="file" name="csv_file" class="btn">
+    <label class="btn btn-default btn-file">
+        Upload JSON file<input type="file" name="csv_file" style="display: none;">
+    </label>
     <input type="submit" class="btn btn-primary" value="Upload" name="uploadbtn"/>
 </form>
-<p>
-    File example
-</p>
+{#<p>#}
+{#    File example#}
+{#</p>#}
     {% endif %}
 {% endblock %}
 
