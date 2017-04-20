@@ -39,8 +39,7 @@ def view_rainfall(request):
         last_measurements.append(last_measurement)
 
     print(last_measurements)
-    return render(request, 'rainfall.html')
-
+    return render(request, 'rainfall.html', {'last_measurements':last_measurements})
 
 
 @login_required(login_url='/login/')
@@ -60,7 +59,6 @@ def upload(request):
             for obs_obj in json_obj:
                 data = {'observatory': obs_id,
                         'rainfall_rate': obs_obj['rainfall_rate'],
-                        'precipitation_24hr': obs_obj['precipitation_24hr'],
                         'measure_datetime': dateutil.parser.parse(obs_obj['measure_datetime'])}
                 obs_form = ObservationForm(data=data)
                 obs_form.save()
