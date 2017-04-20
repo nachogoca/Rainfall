@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .forms import CreateObservatoryForm, UploadForm, ObservationForm, OnlyUserObservatoryForm
-from .models import Observatory, File
+from .models import Observatory, PrecipitationMeasurement
 
 
 @login_required(login_url='/login/')
@@ -26,6 +26,21 @@ def create_observatory(request):
 def view_observatories(request):
     observatories = Observatory.objects.all()
     return render(request, 'observatories.html', {'observatories': observatories})
+
+
+def view_rainfall(request):
+    observatories = Observatory.objects.all()
+    last_measurements = []
+    for observatory in observatories:
+        try:
+            last_measurement = PrecipitationMeasurement.objects.filter(observatory=observatory).latest('measure_datetime')
+        except PrecipitationMeasurement.DoesNotExist:
+            last_measurement = None
+        last_measurements.append(last_measurement)
+
+    print(last_measurements)
+    return render(request, 'rainfall.html')
+
 
 
 @login_required(login_url='/login/')
