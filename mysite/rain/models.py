@@ -17,7 +17,6 @@ class Observatory(models.Model):
 
 class PrecipitationMeasurement(models.Model):
     observatory = models.ForeignKey(Observatory)
-    precipitation_24hr = models.FloatField()
     rainfall_rate = models.FloatField()
     measure_datetime = models.DateTimeField()
 
