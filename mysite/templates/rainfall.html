@@ -19,9 +19,17 @@
             map.setView([20.65, -103.34], 8);
 
             map.locate({setView: true, maxZoom: 10});
+
+            {% for last_measurement in last_measurements %}
+                {% if last_measurement %}
+                var marker = L.marker([{{ last_measurement.observatory.location.y  }}, {{ last_measurement.observatory.location.x }}]).addTo(map);
+                marker.bindPopup("<b>Last rainfall rate: {{ last_measurement.rainfall_rate }}</b>" +
+                    "<br>{{ last_measurement.measure_datetime }}" +
+                "<br>Observatory: {{ last_measurement.observatory.name }}</br>").openPopup();
+                {% endif %}
+            {% endfor %}
         };
 
     </script>
-
 {% endblock %}
 

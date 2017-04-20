@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .forms import CreateObservatoryForm, UploadForm, ObservationForm, OnlyUserObservatoryForm
-from .models import Observatory, File
+from .models import Observatory, PrecipitationMeasurement
 
 
 @login_required(login_url='/login/')
@@ -28,6 +28,20 @@ def view_observatories(request):
     return render(request, 'observatories.html', {'observatories': observatories})
 
 
+def view_rainfall(request):
+    observatories = Observatory.objects.all()
+    last_measurements = []
+    for observatory in observatories:
+        try:
+            last_measurement = PrecipitationMeasurement.objects.filter(observatory=observatory).latest('measure_datetime')
+        except PrecipitationMeasurement.DoesNotExist:
+            last_measurement = None
+        last_measurements.append(last_measurement)
+
+    print(last_measurements)
+    return render(request, 'rainfall.html', {'last_measurements':last_measurements})
+
+
 @login_required(login_url='/login/')
 def upload(request):
     if request.method == 'POST' and request.FILES:
@@ -45,7 +59,6 @@ def upload(request):
             for obs_obj in json_obj:
                 data = {'observatory': obs_id,
                         'rainfall_rate': obs_obj['rainfall_rate'],
-                        'precipitation_24hr': obs_obj['precipitation_24hr'],
                         'measure_datetime': dateutil.parser.parse(obs_obj['measure_datetime'])}
                 obs_form = ObservationForm(data=data)
                 obs_form.save()

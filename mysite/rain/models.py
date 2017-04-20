@@ -21,7 +21,7 @@ class PrecipitationMeasurement(models.Model):
     measure_datetime = models.DateTimeField()
 
     def __str__(self):
-        return u'%s %s' % (self.precipitation_24hr, self.rainfall_rate)
+        return '%s at %s\n' % (self.rainfall_rate, self.measure_datetime)
 
 
 class File(models.Model):
