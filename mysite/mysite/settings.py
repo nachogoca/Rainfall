@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'mapwidgets',
     'bootstrap3',
     'import_export',
-    'django_filters',
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

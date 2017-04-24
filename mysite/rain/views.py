@@ -74,12 +74,17 @@ def upload(request):
 
 def download(request):
     if request.method == 'POST':
-        select_observatory_form = DownloadForm(request.POST)
-        if select_observatory_form.is_valid():
-            selected = select_observatory_form.cleaned_data['observatory_choices']
+        form = DownloadForm(request.POST)
+        if form.is_valid():
+            selected = form.cleaned_data['observatory_choices']
+            obs_to_download = []
             for option_str in selected:
                 option = int(option_str) - 1
-                print(DownloadForm.choices[option][1])
+                obs_to_download.append(DownloadForm.choices[option][1])
+
+
+            print(form.cleaned_data['start_date'])
+            print(form.cleaned_data['end_date'])
     else:
-        select_observatory_form = DownloadForm()
-    return render(request, 'download.html', {'select_observatory_form': select_observatory_form})
+        form = DownloadForm()
+    return render(request, 'download.html', {'select_observatory_form': form})

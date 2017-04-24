@@ -1,7 +1,8 @@
 from django.contrib.gis import forms
+from django.contrib.admin import widgets
 from .models import Observatory, PrecipitationMeasurement, File
 from mapwidgets.widgets import GooglePointFieldWidget
-import django_filters
+
 
 
 class CreateObservatoryForm(forms.ModelForm):
@@ -23,9 +24,19 @@ class OnlyUserObservatoryForm(forms.ModelForm):
             self.fields['observatory'].queryset = Observatory.objects.filter(user=user)
 
 
+class DateInput(forms.DateTimeInput):
+    #input_type = 'datetime-local'
+    input_type = 'date'
+
+
 class DownloadForm(forms.ModelForm):
     choices = [[x.id, x] for x in Observatory.objects.all()]
     observatory_choices = forms.MultipleChoiceField(choices=choices)
+    start_date = forms.DateTimeField(widget=DateInput())
+    end_date = forms.DateTimeField(widget=DateInput())
+    select_time_choices = ["Year", "Month", "Day", "Observation"]
+    # select_time_choices = [[x, select_time_choices[x]] for x in range(len(select_time_choices))]
+    # select_time_range = forms.ChoiceField(choices=select_time_choices)
 
     class Meta(object):
         model = Observatory
