@@ -1,11 +1,16 @@
 {% extends "base.html" %}
+{% load bootstrap3 %}
 
 {% block title %}Download{% endblock %}
 {% block activedownload %}class="active"{% endblock %}
 
 {% block content %}
-<p>
-    This is download content. Modify here.
-</p>
+    <h3>In this section you can download observations made by you and other people.</h3>
+    <p> Please select observatories: </p>
+    <form method="post">
+        {% csrf_token %}
+        {% bootstrap_form select_observatory_form %}
+        <input type="submit" class="btn btn-primary" value="Download" name="downloadbtn"/>
+    </form>
 {% endblock %}
 

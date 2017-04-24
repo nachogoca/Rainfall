@@ -32,6 +32,4 @@ urlpatterns = [
         name='register'),
     url(r'^project/$', view_project, name='mysite.views.view_project'),
     url(r'^observatories/', include('rain.urls')),
-    url(r'^rainfall/$', view_rainfall, name='mysite.views.view_rainfall'),
-    url(r'^download/$', view_download, name='mysite.views.view_download'),
 ]

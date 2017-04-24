@@ -1,6 +1,7 @@
 from django.contrib.gis import forms
 from .models import Observatory, PrecipitationMeasurement, File
 from mapwidgets.widgets import GooglePointFieldWidget
+import django_filters
 
 
 class CreateObservatoryForm(forms.ModelForm):
@@ -21,6 +22,14 @@ class OnlyUserObservatoryForm(forms.ModelForm):
         if user:
             self.fields['observatory'].queryset = Observatory.objects.filter(user=user)
 
+
+class DownloadForm(forms.ModelForm):
+    choices = [[x.id, x] for x in Observatory.objects.all()]
+    observatory_choices = forms.MultipleChoiceField(choices=choices)
+
+    class Meta(object):
+        model = Observatory
+        fields = []
 
 class ObservationForm(forms.ModelForm):
     class Meta(object):

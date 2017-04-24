@@ -1,9 +1,10 @@
-import csv, json
+import json
 import dateutil.parser
+from django import forms
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.utils import timezone
-from .forms import CreateObservatoryForm, UploadForm, ObservationForm, OnlyUserObservatoryForm
+from .forms import CreateObservatoryForm, ObservationForm, OnlyUserObservatoryForm, DownloadForm
 from .models import Observatory, PrecipitationMeasurement
 
 
@@ -71,3 +72,14 @@ def upload(request):
     return render(request, 'upload.html', {'observatories_form': observatories_form})
 
 
+def download(request):
+    if request.method == 'POST':
+        select_observatory_form = DownloadForm(request.POST)
+        if select_observatory_form.is_valid():
+            selected = select_observatory_form.cleaned_data['observatory_choices']
+            for option_str in selected:
+                option = int(option_str) - 1
+                print(DownloadForm.choices[option][1])
+    else:
+        select_observatory_form = DownloadForm()
+    return render(request, 'download.html', {'select_observatory_form': select_observatory_form})
