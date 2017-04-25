@@ -6,6 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.utils import timezone
 from .forms import CreateObservatoryForm, ObservationForm, OnlyUserObservatoryForm, DownloadForm
 from .models import Observatory, PrecipitationMeasurement
+from .download_handler import handle_download
 
 
 @login_required(login_url='/login/')
@@ -73,6 +74,7 @@ def upload(request):
 
 
 def download(request):
+    error = None
     if request.method == 'POST':
         form = DownloadForm(request.POST)
         if form.is_valid():
@@ -82,9 +84,17 @@ def download(request):
                 option = int(option_str) - 1
                 obs_to_download.append(DownloadForm.choices[option][1])
 
-
-            print(form.cleaned_data['start_date'])
-            print(form.cleaned_data['end_date'])
+            try:
+                csv = handle_download(observatories=obs_to_download,
+                                      start_date=form.cleaned_data['start_date'],
+                                      end_date=form.cleaned_data['end_date'],
+                                      time_freq=form.cleaned_data['time_frequency'])
+                if csv is not None:
+                    return csv
+                else:
+                    error = "Error while creating csv."
+            except:
+                error = "Error while processing csv"
     else:
         form = DownloadForm()
-    return render(request, 'download.html', {'select_observatory_form': form})
+    return render(request, 'download.html', {'select_observatory_form': form, 'error': error})
