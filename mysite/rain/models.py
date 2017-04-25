@@ -12,7 +12,8 @@ class Observatory(models.Model):
     objects = models.GeoManager()
 
     def __str__(self):
-        return '%s\t%s\t%s\t%s\t%s\n' % (self.name, self.user, self.about, self.location, self.creation_date)
+        return '%s,\t%s\n' % (self.name, self.about)
+        # return '%s\t%s\t%s\t%s\t%s\n' % (self.name, self.user, self.about, self.location, self.creation_date)
 
 
 class PrecipitationMeasurement(models.Model):

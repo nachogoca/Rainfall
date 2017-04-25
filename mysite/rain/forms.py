@@ -34,9 +34,14 @@ class DownloadForm(forms.ModelForm):
     observatory_choices = forms.MultipleChoiceField(choices=choices)
     start_date = forms.DateTimeField(widget=DateInput())
     end_date = forms.DateTimeField(widget=DateInput())
-    select_time_choices = ["Year", "Month", "Day", "Observation"]
-    # select_time_choices = [[x, select_time_choices[x]] for x in range(len(select_time_choices))]
-    # select_time_range = forms.ChoiceField(choices=select_time_choices)
+    time_choices = (
+        ('year', 'Year'),
+        ('month', 'Month'),
+        ('day', 'Day'),
+        ('observation', 'Observation'),
+
+    )
+    time_frequency = forms.ChoiceField(choices=time_choices)
 
     class Meta(object):
         model = Observatory
