@@ -1,14 +1,14 @@
 [
     {
-        "measure_datetime": "2017-04-02T17:02:15.254800",
-        "rainfall_rate": 77.04
+        "measure_datetime": "2017-04-25T17:12:15.254800",
+        "rainfall_rate": 1.04
     },
     {
-        "measure_datetime": "2017-04-02T17:02:30.254800",
-        "rainfall_rate": 92.95
+        "measure_datetime": "2017-04-25T17:12:30.254800",
+        "rainfall_rate": 0.95
     },
     {
-        "measure_datetime": "2017-04-04T17:02:45.254800",
-        "rainfall_rate": 17.21
+        "measure_datetime": "2017-04-25T17:12:45.254800",
+        "rainfall_rate": 1.21
     }
 ]

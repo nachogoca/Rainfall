@@ -1,3 +1,4 @@
+# TODO Refactor download handlers
 from .models import PrecipitationMeasurement
 from django.db.models.functions import TruncDay, TruncMonth, TruncYear
 from django.db.models import Sum
