@@ -30,7 +30,11 @@ class DateInput(forms.DateTimeInput):
 
 
 class DownloadForm(forms.ModelForm):
-    choices = [[x.id, x] for x in Observatory.objects.all()]
+    choices = []
+    try:
+        choices = [[x.id, x] for x in Observatory.objects.all()]
+    except:
+        pass
     observatory_choices = forms.MultipleChoiceField(choices=choices)
     start_date = forms.DateTimeField(widget=DateInput())
     end_date = forms.DateTimeField(widget=DateInput())
