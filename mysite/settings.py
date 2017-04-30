@@ -85,11 +85,10 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.mysql',
-        'NAME': 'rainfalldb',
+        'NAME': 'hami1981$rainfalldb',
         'USER': 'hami1981',
         'PASSWORD': 'rainfallpass',
-        'HOST': 'localhost',
-        'PORT': '',
+        'HOST': 'hami1981.mysql.pythonanywhere-services.com',
     }
 }
 
