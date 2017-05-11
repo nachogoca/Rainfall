@@ -2,9 +2,9 @@ import datetime
 import json
 from random import uniform
 
-INTERVAL = datetime.timedelta(minutes = 5)
-START_DATE = datetime.date(day=1, month=1, year=2014)
-END_DATE = datetime.date(day=31, month=12, year=2015)
+INTERVAL = datetime.timedelta(minutes = 30)
+START_DATE = datetime.datetime(day=1, month=1, year=2014)
+END_DATE = datetime.datetime(day=2, month=1, year=2014)
 
 
 class Precipitation():
@@ -18,8 +18,11 @@ class Precipitation():
 
 def main():
     observations = generate_random_observations()
+
     with open('data.json', 'w') as openfile:
-        json.dump(observations.__dict__, openfile, default=json_serial)
+        for obs in observations:
+            json.dump(obs.__dict__, openfile, default=json_serial)
+
 
 
 def generate_random_observations():
