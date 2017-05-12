@@ -1,1 +1,194 @@
-{"measure_datetime": "2014-01-01T00:00:00", "rainfall_rate": 9.542812726156711}{"measure_datetime": "2014-01-01T00:30:00", "rainfall_rate": 8.625315563874052}{"measure_datetime": "2014-01-01T01:00:00", "rainfall_rate": 11.253627251417704}{"measure_datetime": "2014-01-01T01:30:00", "rainfall_rate": 10.497546648332122}{"measure_datetime": "2014-01-01T02:00:00", "rainfall_rate": 13.261980992609598}{"measure_datetime": "2014-01-01T02:30:00", "rainfall_rate": 3.3939128032196515}{"measure_datetime": "2014-01-01T03:00:00", "rainfall_rate": 8.205671722043729}{"measure_datetime": "2014-01-01T03:30:00", "rainfall_rate": 3.625493724884307}{"measure_datetime": "2014-01-01T04:00:00", "rainfall_rate": 4.99309556085953}{"measure_datetime": "2014-01-01T04:30:00", "rainfall_rate": 3.1712105942168787}{"measure_datetime": "2014-01-01T05:00:00", "rainfall_rate": 12.212307419520027}{"measure_datetime": "2014-01-01T05:30:00", "rainfall_rate": 13.13687502942568}{"measure_datetime": "2014-01-01T06:00:00", "rainfall_rate": 8.284975628323705}{"measure_datetime": "2014-01-01T06:30:00", "rainfall_rate": 7.066472680953776}{"measure_datetime": "2014-01-01T07:00:00", "rainfall_rate": 11.433692851567532}{"measure_datetime": "2014-01-01T07:30:00", "rainfall_rate": 6.389729462082062}{"measure_datetime": "2014-01-01T08:00:00", "rainfall_rate": 11.292412892259843}{"measure_datetime": "2014-01-01T08:30:00", "rainfall_rate": 14.943298506413655}{"measure_datetime": "2014-01-01T09:00:00", "rainfall_rate": 5.459518809845168}{"measure_datetime": "2014-01-01T09:30:00", "rainfall_rate": 6.719965330323722}{"measure_datetime": "2014-01-01T10:00:00", "rainfall_rate": 2.7475060051361355}{"measure_datetime": "2014-01-01T10:30:00", "rainfall_rate": 4.741999711294888}{"measure_datetime": "2014-01-01T11:00:00", "rainfall_rate": 4.580207344280973}{"measure_datetime": "2014-01-01T11:30:00", "rainfall_rate": 1.6884626446073014}{"measure_datetime": "2014-01-01T12:00:00", "rainfall_rate": 13.445062933101458}{"measure_datetime": "2014-01-01T12:30:00", "rainfall_rate": 0.09509862453591589}{"measure_datetime": "2014-01-01T13:00:00", "rainfall_rate": 14.670232935210779}{"measure_datetime": "2014-01-01T13:30:00", "rainfall_rate": 2.19117751549506}{"measure_datetime": "2014-01-01T14:00:00", "rainfall_rate": 1.9214292669902422}{"measure_datetime": "2014-01-01T14:30:00", "rainfall_rate": 4.547320358499628}{"measure_datetime": "2014-01-01T15:00:00", "rainfall_rate": 2.845923565273918}{"measure_datetime": "2014-01-01T15:30:00", "rainfall_rate": 11.605789524075654}{"measure_datetime": "2014-01-01T16:00:00", "rainfall_rate": 3.215546829879087}{"measure_datetime": "2014-01-01T16:30:00", "rainfall_rate": 7.462354044511094}{"measure_datetime": "2014-01-01T17:00:00", "rainfall_rate": 4.386287578286434}{"measure_datetime": "2014-01-01T17:30:00", "rainfall_rate": 0.01772468853995346}{"measure_datetime": "2014-01-01T18:00:00", "rainfall_rate": 11.785711159592752}{"measure_datetime": "2014-01-01T18:30:00", "rainfall_rate": 4.905948160405728}{"measure_datetime": "2014-01-01T19:00:00", "rainfall_rate": 2.9938118527656794}{"measure_datetime": "2014-01-01T19:30:00", "rainfall_rate": 4.631895789151211}{"measure_datetime": "2014-01-01T20:00:00", "rainfall_rate": 2.253785653386931}{"measure_datetime": "2014-01-01T20:30:00", "rainfall_rate": 5.446790655356045}{"measure_datetime": "2014-01-01T21:00:00", "rainfall_rate": 5.213338806328769}{"measure_datetime": "2014-01-01T21:30:00", "rainfall_rate": 13.084918427244327}{"measure_datetime": "2014-01-01T22:00:00", "rainfall_rate": 2.0805604300657072}{"measure_datetime": "2014-01-01T22:30:00", "rainfall_rate": 4.9561918116597425}{"measure_datetime": "2014-01-01T23:00:00", "rainfall_rate": 13.928879757079855}{"measure_datetime": "2014-01-01T23:30:00", "rainfall_rate": 0.5487817024949054}
+[
+    {
+        "measure_datetime": "2014-01-01T00:00:00",
+        "rainfall_rate": 6.800347298321649
+    },
+    {
+        "measure_datetime": "2014-01-01T00:30:00",
+        "rainfall_rate": 3.773940949718969
+    },
+    {
+        "measure_datetime": "2014-01-01T01:00:00",
+        "rainfall_rate": 6.7901370777507255
+    },
+    {
+        "measure_datetime": "2014-01-01T01:30:00",
+        "rainfall_rate": 9.68226066129148
+    },
+    {
+        "measure_datetime": "2014-01-01T02:00:00",
+        "rainfall_rate": 1.9064782438564332
+    },
+    {
+        "measure_datetime": "2014-01-01T02:30:00",
+        "rainfall_rate": 5.994777833874235
+    },
+    {
+        "measure_datetime": "2014-01-01T03:00:00",
+        "rainfall_rate": 7.4726967869644785
+    },
+    {
+        "measure_datetime": "2014-01-01T03:30:00",
+        "rainfall_rate": 8.934304078675963
+    },
+    {
+        "measure_datetime": "2014-01-01T04:00:00",
+        "rainfall_rate": 10.314466209023088
+    },
+    {
+        "measure_datetime": "2014-01-01T04:30:00",
+        "rainfall_rate": 2.832453705620486
+    },
+    {
+        "measure_datetime": "2014-01-01T05:00:00",
+        "rainfall_rate": 8.23199921255919
+    },
+    {
+        "measure_datetime": "2014-01-01T05:30:00",
+        "rainfall_rate": 3.389706045000926
+    },
+    {
+        "measure_datetime": "2014-01-01T06:00:00",
+        "rainfall_rate": 7.540054025731201
+    },
+    {
+        "measure_datetime": "2014-01-01T06:30:00",
+        "rainfall_rate": 13.587756024802601
+    },
+    {
+        "measure_datetime": "2014-01-01T07:00:00",
+        "rainfall_rate": 13.645759077257575
+    },
+    {
+        "measure_datetime": "2014-01-01T07:30:00",
+        "rainfall_rate": 6.658375733245869
+    },
+    {
+        "measure_datetime": "2014-01-01T08:00:00",
+        "rainfall_rate": 11.793941620568958
+    },
+    {
+        "measure_datetime": "2014-01-01T08:30:00",
+        "rainfall_rate": 6.728831003613615
+    },
+    {
+        "measure_datetime": "2014-01-01T09:00:00",
+        "rainfall_rate": 2.484847219035969
+    },
+    {
+        "measure_datetime": "2014-01-01T09:30:00",
+        "rainfall_rate": 1.1675422232484638
+    },
+    {
+        "measure_datetime": "2014-01-01T10:00:00",
+        "rainfall_rate": 7.501474249267112
+    },
+    {
+        "measure_datetime": "2014-01-01T10:30:00",
+        "rainfall_rate": 7.126958027012139
+    },
+    {
+        "measure_datetime": "2014-01-01T11:00:00",
+        "rainfall_rate": 6.515215219074056
+    },
+    {
+        "measure_datetime": "2014-01-01T11:30:00",
+        "rainfall_rate": 4.726304612874264
+    },
+    {
+        "measure_datetime": "2014-01-01T12:00:00",
+        "rainfall_rate": 1.9022328980423637
+    },
+    {
+        "measure_datetime": "2014-01-01T12:30:00",
+        "rainfall_rate": 9.99945452048385
+    },
+    {
+        "measure_datetime": "2014-01-01T13:00:00",
+        "rainfall_rate": 8.008109646959957
+    },
+    {
+        "measure_datetime": "2014-01-01T13:30:00",
+        "rainfall_rate": 0.5862573557157369
+    },
+    {
+        "measure_datetime": "2014-01-01T14:00:00",
+        "rainfall_rate": 5.428592794586262
+    },
+    {
+        "measure_datetime": "2014-01-01T14:30:00",
+        "rainfall_rate": 4.122603083875218
+    },
+    {
+        "measure_datetime": "2014-01-01T15:00:00",
+        "rainfall_rate": 14.965293554013849
+    },
+    {
+        "measure_datetime": "2014-01-01T15:30:00",
+        "rainfall_rate": 0.15901132790681338
+    },
+    {
+        "measure_datetime": "2014-01-01T16:00:00",
+        "rainfall_rate": 1.5284161243137335
+    },
+    {
+        "measure_datetime": "2014-01-01T16:30:00",
+        "rainfall_rate": 7.964741168101508
+    },
+    {
+        "measure_datetime": "2014-01-01T17:00:00",
+        "rainfall_rate": 12.847620805525521
+    },
+    {
+        "measure_datetime": "2014-01-01T17:30:00",
+        "rainfall_rate": 9.763032573639856
+    },
+    {
+        "measure_datetime": "2014-01-01T18:00:00",
+        "rainfall_rate": 14.297530246400132
+    },
+    {
+        "measure_datetime": "2014-01-01T18:30:00",
+        "rainfall_rate": 7.857636959527322
+    },
+    {
+        "measure_datetime": "2014-01-01T19:00:00",
+        "rainfall_rate": 1.5203754581496731
+    },
+    {
+        "measure_datetime": "2014-01-01T19:30:00",
+        "rainfall_rate": 11.867721442921649
+    },
+    {
+        "measure_datetime": "2014-01-01T20:00:00",
+        "rainfall_rate": 7.592957947059723
+    },
+    {
+        "measure_datetime": "2014-01-01T20:30:00",
+        "rainfall_rate": 11.190667375532431
+    },
+    {
+        "measure_datetime": "2014-01-01T21:00:00",
+        "rainfall_rate": 5.748115524636027
+    },
+    {
+        "measure_datetime": "2014-01-01T21:30:00",
+        "rainfall_rate": 13.592776803538023
+    },
+    {
+        "measure_datetime": "2014-01-01T22:00:00",
+        "rainfall_rate": 1.5247014883159422
+    },
+    {
+        "measure_datetime": "2014-01-01T22:30:00",
+        "rainfall_rate": 7.781468239396786
+    },
+    {
+        "measure_datetime": "2014-01-01T23:00:00",
+        "rainfall_rate": 13.068182185707986
+    },
+    {
+        "measure_datetime": "2014-01-01T23:30:00",
+        "rainfall_rate": 5.334198079561124
+    }
+]
