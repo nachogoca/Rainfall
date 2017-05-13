@@ -2,9 +2,9 @@ import datetime
 import json
 from random import uniform
 
-INTERVAL = datetime.timedelta(minutes = 30)
-START_DATE = datetime.datetime(day=1, month=1, year=2014)
-END_DATE = datetime.datetime(day=2, month=1, year=2014)
+INTERVAL = datetime.timedelta(days = 1)
+START_DATE = datetime.datetime(day=1, month=1, year=2016)
+END_DATE = datetime.datetime(day=11, month=5, year=2017)
 
 
 def main():
@@ -23,7 +23,7 @@ def generate_random_observations():
         rand = uniform(0, 15)
         precip = {}
         precip['measure_datetime'] = d.isoformat()
-        precip['rainfall_rate'] = rand
+        precip['rainfall_rate'] = '{0:.2f}'.format(rand)
         observations.append(precip)
 
         d += INTERVAL

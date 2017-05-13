@@ -1,194 +1,1986 @@
 [
     {
-        "measure_datetime": "2014-01-01T00:00:00",
-        "rainfall_rate": 6.800347298321649
+        "measure_datetime": "2016-01-01T00:00:00",
+        "rainfall_rate": "5.60"
     },
     {
-        "measure_datetime": "2014-01-01T00:30:00",
-        "rainfall_rate": 3.773940949718969
+        "measure_datetime": "2016-01-02T00:00:00",
+        "rainfall_rate": "8.22"
     },
     {
-        "measure_datetime": "2014-01-01T01:00:00",
-        "rainfall_rate": 6.7901370777507255
+        "measure_datetime": "2016-01-03T00:00:00",
+        "rainfall_rate": "2.18"
     },
     {
-        "measure_datetime": "2014-01-01T01:30:00",
-        "rainfall_rate": 9.68226066129148
+        "measure_datetime": "2016-01-04T00:00:00",
+        "rainfall_rate": "13.09"
     },
     {
-        "measure_datetime": "2014-01-01T02:00:00",
-        "rainfall_rate": 1.9064782438564332
+        "measure_datetime": "2016-01-05T00:00:00",
+        "rainfall_rate": "4.19"
     },
     {
-        "measure_datetime": "2014-01-01T02:30:00",
-        "rainfall_rate": 5.994777833874235
+        "measure_datetime": "2016-01-06T00:00:00",
+        "rainfall_rate": "4.51"
     },
     {
-        "measure_datetime": "2014-01-01T03:00:00",
-        "rainfall_rate": 7.4726967869644785
+        "measure_datetime": "2016-01-07T00:00:00",
+        "rainfall_rate": "5.79"
     },
     {
-        "measure_datetime": "2014-01-01T03:30:00",
-        "rainfall_rate": 8.934304078675963
+        "measure_datetime": "2016-01-08T00:00:00",
+        "rainfall_rate": "1.01"
     },
     {
-        "measure_datetime": "2014-01-01T04:00:00",
-        "rainfall_rate": 10.314466209023088
+        "measure_datetime": "2016-01-09T00:00:00",
+        "rainfall_rate": "2.71"
     },
     {
-        "measure_datetime": "2014-01-01T04:30:00",
-        "rainfall_rate": 2.832453705620486
+        "measure_datetime": "2016-01-10T00:00:00",
+        "rainfall_rate": "3.11"
     },
     {
-        "measure_datetime": "2014-01-01T05:00:00",
-        "rainfall_rate": 8.23199921255919
+        "measure_datetime": "2016-01-11T00:00:00",
+        "rainfall_rate": "4.77"
     },
     {
-        "measure_datetime": "2014-01-01T05:30:00",
-        "rainfall_rate": 3.389706045000926
+        "measure_datetime": "2016-01-12T00:00:00",
+        "rainfall_rate": "3.63"
     },
     {
-        "measure_datetime": "2014-01-01T06:00:00",
-        "rainfall_rate": 7.540054025731201
+        "measure_datetime": "2016-01-13T00:00:00",
+        "rainfall_rate": "9.72"
     },
     {
-        "measure_datetime": "2014-01-01T06:30:00",
-        "rainfall_rate": 13.587756024802601
+        "measure_datetime": "2016-01-14T00:00:00",
+        "rainfall_rate": "6.37"
     },
     {
-        "measure_datetime": "2014-01-01T07:00:00",
-        "rainfall_rate": 13.645759077257575
+        "measure_datetime": "2016-01-15T00:00:00",
+        "rainfall_rate": "7.31"
     },
     {
-        "measure_datetime": "2014-01-01T07:30:00",
-        "rainfall_rate": 6.658375733245869
+        "measure_datetime": "2016-01-16T00:00:00",
+        "rainfall_rate": "11.97"
     },
     {
-        "measure_datetime": "2014-01-01T08:00:00",
-        "rainfall_rate": 11.793941620568958
+        "measure_datetime": "2016-01-17T00:00:00",
+        "rainfall_rate": "14.73"
     },
     {
-        "measure_datetime": "2014-01-01T08:30:00",
-        "rainfall_rate": 6.728831003613615
+        "measure_datetime": "2016-01-18T00:00:00",
+        "rainfall_rate": "10.18"
     },
     {
-        "measure_datetime": "2014-01-01T09:00:00",
-        "rainfall_rate": 2.484847219035969
+        "measure_datetime": "2016-01-19T00:00:00",
+        "rainfall_rate": "6.58"
     },
     {
-        "measure_datetime": "2014-01-01T09:30:00",
-        "rainfall_rate": 1.1675422232484638
+        "measure_datetime": "2016-01-20T00:00:00",
+        "rainfall_rate": "8.89"
     },
     {
-        "measure_datetime": "2014-01-01T10:00:00",
-        "rainfall_rate": 7.501474249267112
+        "measure_datetime": "2016-01-21T00:00:00",
+        "rainfall_rate": "5.51"
     },
     {
-        "measure_datetime": "2014-01-01T10:30:00",
-        "rainfall_rate": 7.126958027012139
+        "measure_datetime": "2016-01-22T00:00:00",
+        "rainfall_rate": "0.53"
     },
     {
-        "measure_datetime": "2014-01-01T11:00:00",
-        "rainfall_rate": 6.515215219074056
+        "measure_datetime": "2016-01-23T00:00:00",
+        "rainfall_rate": "14.71"
     },
     {
-        "measure_datetime": "2014-01-01T11:30:00",
-        "rainfall_rate": 4.726304612874264
+        "measure_datetime": "2016-01-24T00:00:00",
+        "rainfall_rate": "14.52"
     },
     {
-        "measure_datetime": "2014-01-01T12:00:00",
-        "rainfall_rate": 1.9022328980423637
+        "measure_datetime": "2016-01-25T00:00:00",
+        "rainfall_rate": "5.53"
     },
     {
-        "measure_datetime": "2014-01-01T12:30:00",
-        "rainfall_rate": 9.99945452048385
+        "measure_datetime": "2016-01-26T00:00:00",
+        "rainfall_rate": "6.68"
     },
     {
-        "measure_datetime": "2014-01-01T13:00:00",
-        "rainfall_rate": 8.008109646959957
+        "measure_datetime": "2016-01-27T00:00:00",
+        "rainfall_rate": "6.62"
     },
     {
-        "measure_datetime": "2014-01-01T13:30:00",
-        "rainfall_rate": 0.5862573557157369
+        "measure_datetime": "2016-01-28T00:00:00",
+        "rainfall_rate": "4.05"
     },
     {
-        "measure_datetime": "2014-01-01T14:00:00",
-        "rainfall_rate": 5.428592794586262
+        "measure_datetime": "2016-01-29T00:00:00",
+        "rainfall_rate": "1.69"
     },
     {
-        "measure_datetime": "2014-01-01T14:30:00",
-        "rainfall_rate": 4.122603083875218
+        "measure_datetime": "2016-01-30T00:00:00",
+        "rainfall_rate": "10.22"
     },
     {
-        "measure_datetime": "2014-01-01T15:00:00",
-        "rainfall_rate": 14.965293554013849
+        "measure_datetime": "2016-01-31T00:00:00",
+        "rainfall_rate": "13.88"
     },
     {
-        "measure_datetime": "2014-01-01T15:30:00",
-        "rainfall_rate": 0.15901132790681338
+        "measure_datetime": "2016-02-01T00:00:00",
+        "rainfall_rate": "11.78"
     },
     {
-        "measure_datetime": "2014-01-01T16:00:00",
-        "rainfall_rate": 1.5284161243137335
+        "measure_datetime": "2016-02-02T00:00:00",
+        "rainfall_rate": "14.79"
     },
     {
-        "measure_datetime": "2014-01-01T16:30:00",
-        "rainfall_rate": 7.964741168101508
+        "measure_datetime": "2016-02-03T00:00:00",
+        "rainfall_rate": "2.42"
     },
     {
-        "measure_datetime": "2014-01-01T17:00:00",
-        "rainfall_rate": 12.847620805525521
+        "measure_datetime": "2016-02-04T00:00:00",
+        "rainfall_rate": "6.49"
     },
     {
-        "measure_datetime": "2014-01-01T17:30:00",
-        "rainfall_rate": 9.763032573639856
+        "measure_datetime": "2016-02-05T00:00:00",
+        "rainfall_rate": "10.76"
     },
     {
-        "measure_datetime": "2014-01-01T18:00:00",
-        "rainfall_rate": 14.297530246400132
+        "measure_datetime": "2016-02-06T00:00:00",
+        "rainfall_rate": "9.98"
     },
     {
-        "measure_datetime": "2014-01-01T18:30:00",
-        "rainfall_rate": 7.857636959527322
+        "measure_datetime": "2016-02-07T00:00:00",
+        "rainfall_rate": "3.12"
     },
     {
-        "measure_datetime": "2014-01-01T19:00:00",
-        "rainfall_rate": 1.5203754581496731
+        "measure_datetime": "2016-02-08T00:00:00",
+        "rainfall_rate": "14.94"
     },
     {
-        "measure_datetime": "2014-01-01T19:30:00",
-        "rainfall_rate": 11.867721442921649
+        "measure_datetime": "2016-02-09T00:00:00",
+        "rainfall_rate": "11.42"
     },
     {
-        "measure_datetime": "2014-01-01T20:00:00",
-        "rainfall_rate": 7.592957947059723
+        "measure_datetime": "2016-02-10T00:00:00",
+        "rainfall_rate": "1.19"
     },
     {
-        "measure_datetime": "2014-01-01T20:30:00",
-        "rainfall_rate": 11.190667375532431
+        "measure_datetime": "2016-02-11T00:00:00",
+        "rainfall_rate": "3.93"
     },
     {
-        "measure_datetime": "2014-01-01T21:00:00",
-        "rainfall_rate": 5.748115524636027
+        "measure_datetime": "2016-02-12T00:00:00",
+        "rainfall_rate": "0.53"
     },
     {
-        "measure_datetime": "2014-01-01T21:30:00",
-        "rainfall_rate": 13.592776803538023
+        "measure_datetime": "2016-02-13T00:00:00",
+        "rainfall_rate": "8.46"
     },
     {
-        "measure_datetime": "2014-01-01T22:00:00",
-        "rainfall_rate": 1.5247014883159422
+        "measure_datetime": "2016-02-14T00:00:00",
+        "rainfall_rate": "3.91"
     },
     {
-        "measure_datetime": "2014-01-01T22:30:00",
-        "rainfall_rate": 7.781468239396786
+        "measure_datetime": "2016-02-15T00:00:00",
+        "rainfall_rate": "11.13"
     },
     {
-        "measure_datetime": "2014-01-01T23:00:00",
-        "rainfall_rate": 13.068182185707986
+        "measure_datetime": "2016-02-16T00:00:00",
+        "rainfall_rate": "4.12"
     },
     {
-        "measure_datetime": "2014-01-01T23:30:00",
-        "rainfall_rate": 5.334198079561124
+        "measure_datetime": "2016-02-17T00:00:00",
+        "rainfall_rate": "7.35"
+    },
+    {
+        "measure_datetime": "2016-02-18T00:00:00",
+        "rainfall_rate": "9.59"
+    },
+    {
+        "measure_datetime": "2016-02-19T00:00:00",
+        "rainfall_rate": "2.01"
+    },
+    {
+        "measure_datetime": "2016-02-20T00:00:00",
+        "rainfall_rate": "1.64"
+    },
+    {
+        "measure_datetime": "2016-02-21T00:00:00",
+        "rainfall_rate": "13.79"
+    },
+    {
+        "measure_datetime": "2016-02-22T00:00:00",
+        "rainfall_rate": "3.40"
+    },
+    {
+        "measure_datetime": "2016-02-23T00:00:00",
+        "rainfall_rate": "12.08"
+    },
+    {
+        "measure_datetime": "2016-02-24T00:00:00",
+        "rainfall_rate": "11.38"
+    },
+    {
+        "measure_datetime": "2016-02-25T00:00:00",
+        "rainfall_rate": "1.32"
+    },
+    {
+        "measure_datetime": "2016-02-26T00:00:00",
+        "rainfall_rate": "11.67"
+    },
+    {
+        "measure_datetime": "2016-02-27T00:00:00",
+        "rainfall_rate": "11.07"
+    },
+    {
+        "measure_datetime": "2016-02-28T00:00:00",
+        "rainfall_rate": "8.74"
+    },
+    {
+        "measure_datetime": "2016-02-29T00:00:00",
+        "rainfall_rate": "11.67"
+    },
+    {
+        "measure_datetime": "2016-03-01T00:00:00",
+        "rainfall_rate": "2.26"
+    },
+    {
+        "measure_datetime": "2016-03-02T00:00:00",
+        "rainfall_rate": "4.82"
+    },
+    {
+        "measure_datetime": "2016-03-03T00:00:00",
+        "rainfall_rate": "2.18"
+    },
+    {
+        "measure_datetime": "2016-03-04T00:00:00",
+        "rainfall_rate": "11.77"
+    },
+    {
+        "measure_datetime": "2016-03-05T00:00:00",
+        "rainfall_rate": "5.98"
+    },
+    {
+        "measure_datetime": "2016-03-06T00:00:00",
+        "rainfall_rate": "0.06"
+    },
+    {
+        "measure_datetime": "2016-03-07T00:00:00",
+        "rainfall_rate": "10.71"
+    },
+    {
+        "measure_datetime": "2016-03-08T00:00:00",
+        "rainfall_rate": "1.87"
+    },
+    {
+        "measure_datetime": "2016-03-09T00:00:00",
+        "rainfall_rate": "10.27"
+    },
+    {
+        "measure_datetime": "2016-03-10T00:00:00",
+        "rainfall_rate": "11.95"
+    },
+    {
+        "measure_datetime": "2016-03-11T00:00:00",
+        "rainfall_rate": "14.40"
+    },
+    {
+        "measure_datetime": "2016-03-12T00:00:00",
+        "rainfall_rate": "14.81"
+    },
+    {
+        "measure_datetime": "2016-03-13T00:00:00",
+        "rainfall_rate": "3.56"
+    },
+    {
+        "measure_datetime": "2016-03-14T00:00:00",
+        "rainfall_rate": "2.44"
+    },
+    {
+        "measure_datetime": "2016-03-15T00:00:00",
+        "rainfall_rate": "2.07"
+    },
+    {
+        "measure_datetime": "2016-03-16T00:00:00",
+        "rainfall_rate": "2.77"
+    },
+    {
+        "measure_datetime": "2016-03-17T00:00:00",
+        "rainfall_rate": "13.81"
+    },
+    {
+        "measure_datetime": "2016-03-18T00:00:00",
+        "rainfall_rate": "11.92"
+    },
+    {
+        "measure_datetime": "2016-03-19T00:00:00",
+        "rainfall_rate": "6.03"
+    },
+    {
+        "measure_datetime": "2016-03-20T00:00:00",
+        "rainfall_rate": "6.95"
+    },
+    {
+        "measure_datetime": "2016-03-21T00:00:00",
+        "rainfall_rate": "0.64"
+    },
+    {
+        "measure_datetime": "2016-03-22T00:00:00",
+        "rainfall_rate": "3.73"
+    },
+    {
+        "measure_datetime": "2016-03-23T00:00:00",
+        "rainfall_rate": "6.40"
+    },
+    {
+        "measure_datetime": "2016-03-24T00:00:00",
+        "rainfall_rate": "11.84"
+    },
+    {
+        "measure_datetime": "2016-03-25T00:00:00",
+        "rainfall_rate": "4.82"
+    },
+    {
+        "measure_datetime": "2016-03-26T00:00:00",
+        "rainfall_rate": "3.98"
+    },
+    {
+        "measure_datetime": "2016-03-27T00:00:00",
+        "rainfall_rate": "4.76"
+    },
+    {
+        "measure_datetime": "2016-03-28T00:00:00",
+        "rainfall_rate": "10.96"
+    },
+    {
+        "measure_datetime": "2016-03-29T00:00:00",
+        "rainfall_rate": "12.31"
+    },
+    {
+        "measure_datetime": "2016-03-30T00:00:00",
+        "rainfall_rate": "8.83"
+    },
+    {
+        "measure_datetime": "2016-03-31T00:00:00",
+        "rainfall_rate": "13.77"
+    },
+    {
+        "measure_datetime": "2016-04-01T00:00:00",
+        "rainfall_rate": "12.20"
+    },
+    {
+        "measure_datetime": "2016-04-02T00:00:00",
+        "rainfall_rate": "14.93"
+    },
+    {
+        "measure_datetime": "2016-04-03T00:00:00",
+        "rainfall_rate": "0.80"
+    },
+    {
+        "measure_datetime": "2016-04-04T00:00:00",
+        "rainfall_rate": "3.70"
+    },
+    {
+        "measure_datetime": "2016-04-05T00:00:00",
+        "rainfall_rate": "1.14"
+    },
+    {
+        "measure_datetime": "2016-04-06T00:00:00",
+        "rainfall_rate": "4.43"
+    },
+    {
+        "measure_datetime": "2016-04-07T00:00:00",
+        "rainfall_rate": "7.43"
+    },
+    {
+        "measure_datetime": "2016-04-08T00:00:00",
+        "rainfall_rate": "8.30"
+    },
+    {
+        "measure_datetime": "2016-04-09T00:00:00",
+        "rainfall_rate": "11.42"
+    },
+    {
+        "measure_datetime": "2016-04-10T00:00:00",
+        "rainfall_rate": "8.33"
+    },
+    {
+        "measure_datetime": "2016-04-11T00:00:00",
+        "rainfall_rate": "0.81"
+    },
+    {
+        "measure_datetime": "2016-04-12T00:00:00",
+        "rainfall_rate": "13.89"
+    },
+    {
+        "measure_datetime": "2016-04-13T00:00:00",
+        "rainfall_rate": "10.15"
+    },
+    {
+        "measure_datetime": "2016-04-14T00:00:00",
+        "rainfall_rate": "2.11"
+    },
+    {
+        "measure_datetime": "2016-04-15T00:00:00",
+        "rainfall_rate": "5.15"
+    },
+    {
+        "measure_datetime": "2016-04-16T00:00:00",
+        "rainfall_rate": "0.21"
+    },
+    {
+        "measure_datetime": "2016-04-17T00:00:00",
+        "rainfall_rate": "14.29"
+    },
+    {
+        "measure_datetime": "2016-04-18T00:00:00",
+        "rainfall_rate": "9.15"
+    },
+    {
+        "measure_datetime": "2016-04-19T00:00:00",
+        "rainfall_rate": "1.92"
+    },
+    {
+        "measure_datetime": "2016-04-20T00:00:00",
+        "rainfall_rate": "4.25"
+    },
+    {
+        "measure_datetime": "2016-04-21T00:00:00",
+        "rainfall_rate": "9.58"
+    },
+    {
+        "measure_datetime": "2016-04-22T00:00:00",
+        "rainfall_rate": "6.39"
+    },
+    {
+        "measure_datetime": "2016-04-23T00:00:00",
+        "rainfall_rate": "5.23"
+    },
+    {
+        "measure_datetime": "2016-04-24T00:00:00",
+        "rainfall_rate": "3.89"
+    },
+    {
+        "measure_datetime": "2016-04-25T00:00:00",
+        "rainfall_rate": "0.75"
+    },
+    {
+        "measure_datetime": "2016-04-26T00:00:00",
+        "rainfall_rate": "3.73"
+    },
+    {
+        "measure_datetime": "2016-04-27T00:00:00",
+        "rainfall_rate": "14.24"
+    },
+    {
+        "measure_datetime": "2016-04-28T00:00:00",
+        "rainfall_rate": "1.78"
+    },
+    {
+        "measure_datetime": "2016-04-29T00:00:00",
+        "rainfall_rate": "10.60"
+    },
+    {
+        "measure_datetime": "2016-04-30T00:00:00",
+        "rainfall_rate": "8.17"
+    },
+    {
+        "measure_datetime": "2016-05-01T00:00:00",
+        "rainfall_rate": "7.18"
+    },
+    {
+        "measure_datetime": "2016-05-02T00:00:00",
+        "rainfall_rate": "9.21"
+    },
+    {
+        "measure_datetime": "2016-05-03T00:00:00",
+        "rainfall_rate": "3.70"
+    },
+    {
+        "measure_datetime": "2016-05-04T00:00:00",
+        "rainfall_rate": "14.54"
+    },
+    {
+        "measure_datetime": "2016-05-05T00:00:00",
+        "rainfall_rate": "3.49"
+    },
+    {
+        "measure_datetime": "2016-05-06T00:00:00",
+        "rainfall_rate": "6.62"
+    },
+    {
+        "measure_datetime": "2016-05-07T00:00:00",
+        "rainfall_rate": "8.46"
+    },
+    {
+        "measure_datetime": "2016-05-08T00:00:00",
+        "rainfall_rate": "3.32"
+    },
+    {
+        "measure_datetime": "2016-05-09T00:00:00",
+        "rainfall_rate": "5.26"
+    },
+    {
+        "measure_datetime": "2016-05-10T00:00:00",
+        "rainfall_rate": "11.45"
+    },
+    {
+        "measure_datetime": "2016-05-11T00:00:00",
+        "rainfall_rate": "13.73"
+    },
+    {
+        "measure_datetime": "2016-05-12T00:00:00",
+        "rainfall_rate": "14.03"
+    },
+    {
+        "measure_datetime": "2016-05-13T00:00:00",
+        "rainfall_rate": "6.10"
+    },
+    {
+        "measure_datetime": "2016-05-14T00:00:00",
+        "rainfall_rate": "8.09"
+    },
+    {
+        "measure_datetime": "2016-05-15T00:00:00",
+        "rainfall_rate": "9.78"
+    },
+    {
+        "measure_datetime": "2016-05-16T00:00:00",
+        "rainfall_rate": "13.69"
+    },
+    {
+        "measure_datetime": "2016-05-17T00:00:00",
+        "rainfall_rate": "0.21"
+    },
+    {
+        "measure_datetime": "2016-05-18T00:00:00",
+        "rainfall_rate": "6.24"
+    },
+    {
+        "measure_datetime": "2016-05-19T00:00:00",
+        "rainfall_rate": "3.05"
+    },
+    {
+        "measure_datetime": "2016-05-20T00:00:00",
+        "rainfall_rate": "2.17"
+    },
+    {
+        "measure_datetime": "2016-05-21T00:00:00",
+        "rainfall_rate": "9.64"
+    },
+    {
+        "measure_datetime": "2016-05-22T00:00:00",
+        "rainfall_rate": "7.73"
+    },
+    {
+        "measure_datetime": "2016-05-23T00:00:00",
+        "rainfall_rate": "3.75"
+    },
+    {
+        "measure_datetime": "2016-05-24T00:00:00",
+        "rainfall_rate": "1.92"
+    },
+    {
+        "measure_datetime": "2016-05-25T00:00:00",
+        "rainfall_rate": "7.34"
+    },
+    {
+        "measure_datetime": "2016-05-26T00:00:00",
+        "rainfall_rate": "1.99"
+    },
+    {
+        "measure_datetime": "2016-05-27T00:00:00",
+        "rainfall_rate": "12.99"
+    },
+    {
+        "measure_datetime": "2016-05-28T00:00:00",
+        "rainfall_rate": "6.74"
+    },
+    {
+        "measure_datetime": "2016-05-29T00:00:00",
+        "rainfall_rate": "11.21"
+    },
+    {
+        "measure_datetime": "2016-05-30T00:00:00",
+        "rainfall_rate": "8.27"
+    },
+    {
+        "measure_datetime": "2016-05-31T00:00:00",
+        "rainfall_rate": "14.37"
+    },
+    {
+        "measure_datetime": "2016-06-01T00:00:00",
+        "rainfall_rate": "8.44"
+    },
+    {
+        "measure_datetime": "2016-06-02T00:00:00",
+        "rainfall_rate": "3.28"
+    },
+    {
+        "measure_datetime": "2016-06-03T00:00:00",
+        "rainfall_rate": "14.24"
+    },
+    {
+        "measure_datetime": "2016-06-04T00:00:00",
+        "rainfall_rate": "2.57"
+    },
+    {
+        "measure_datetime": "2016-06-05T00:00:00",
+        "rainfall_rate": "9.50"
+    },
+    {
+        "measure_datetime": "2016-06-06T00:00:00",
+        "rainfall_rate": "5.05"
+    },
+    {
+        "measure_datetime": "2016-06-07T00:00:00",
+        "rainfall_rate": "5.16"
+    },
+    {
+        "measure_datetime": "2016-06-08T00:00:00",
+        "rainfall_rate": "12.32"
+    },
+    {
+        "measure_datetime": "2016-06-09T00:00:00",
+        "rainfall_rate": "14.09"
+    },
+    {
+        "measure_datetime": "2016-06-10T00:00:00",
+        "rainfall_rate": "4.06"
+    },
+    {
+        "measure_datetime": "2016-06-11T00:00:00",
+        "rainfall_rate": "3.09"
+    },
+    {
+        "measure_datetime": "2016-06-12T00:00:00",
+        "rainfall_rate": "8.72"
+    },
+    {
+        "measure_datetime": "2016-06-13T00:00:00",
+        "rainfall_rate": "2.27"
+    },
+    {
+        "measure_datetime": "2016-06-14T00:00:00",
+        "rainfall_rate": "0.01"
+    },
+    {
+        "measure_datetime": "2016-06-15T00:00:00",
+        "rainfall_rate": "12.14"
+    },
+    {
+        "measure_datetime": "2016-06-16T00:00:00",
+        "rainfall_rate": "12.32"
+    },
+    {
+        "measure_datetime": "2016-06-17T00:00:00",
+        "rainfall_rate": "0.53"
+    },
+    {
+        "measure_datetime": "2016-06-18T00:00:00",
+        "rainfall_rate": "4.18"
+    },
+    {
+        "measure_datetime": "2016-06-19T00:00:00",
+        "rainfall_rate": "13.68"
+    },
+    {
+        "measure_datetime": "2016-06-20T00:00:00",
+        "rainfall_rate": "8.73"
+    },
+    {
+        "measure_datetime": "2016-06-21T00:00:00",
+        "rainfall_rate": "5.86"
+    },
+    {
+        "measure_datetime": "2016-06-22T00:00:00",
+        "rainfall_rate": "3.61"
+    },
+    {
+        "measure_datetime": "2016-06-23T00:00:00",
+        "rainfall_rate": "5.56"
+    },
+    {
+        "measure_datetime": "2016-06-24T00:00:00",
+        "rainfall_rate": "6.10"
+    },
+    {
+        "measure_datetime": "2016-06-25T00:00:00",
+        "rainfall_rate": "4.44"
+    },
+    {
+        "measure_datetime": "2016-06-26T00:00:00",
+        "rainfall_rate": "4.41"
+    },
+    {
+        "measure_datetime": "2016-06-27T00:00:00",
+        "rainfall_rate": "3.93"
+    },
+    {
+        "measure_datetime": "2016-06-28T00:00:00",
+        "rainfall_rate": "14.87"
+    },
+    {
+        "measure_datetime": "2016-06-29T00:00:00",
+        "rainfall_rate": "13.66"
+    },
+    {
+        "measure_datetime": "2016-06-30T00:00:00",
+        "rainfall_rate": "7.14"
+    },
+    {
+        "measure_datetime": "2016-07-01T00:00:00",
+        "rainfall_rate": "11.92"
+    },
+    {
+        "measure_datetime": "2016-07-02T00:00:00",
+        "rainfall_rate": "10.20"
+    },
+    {
+        "measure_datetime": "2016-07-03T00:00:00",
+        "rainfall_rate": "12.45"
+    },
+    {
+        "measure_datetime": "2016-07-04T00:00:00",
+        "rainfall_rate": "0.04"
+    },
+    {
+        "measure_datetime": "2016-07-05T00:00:00",
+        "rainfall_rate": "0.53"
+    },
+    {
+        "measure_datetime": "2016-07-06T00:00:00",
+        "rainfall_rate": "0.61"
+    },
+    {
+        "measure_datetime": "2016-07-07T00:00:00",
+        "rainfall_rate": "1.29"
+    },
+    {
+        "measure_datetime": "2016-07-08T00:00:00",
+        "rainfall_rate": "10.17"
+    },
+    {
+        "measure_datetime": "2016-07-09T00:00:00",
+        "rainfall_rate": "3.89"
+    },
+    {
+        "measure_datetime": "2016-07-10T00:00:00",
+        "rainfall_rate": "8.26"
+    },
+    {
+        "measure_datetime": "2016-07-11T00:00:00",
+        "rainfall_rate": "7.15"
+    },
+    {
+        "measure_datetime": "2016-07-12T00:00:00",
+        "rainfall_rate": "9.85"
+    },
+    {
+        "measure_datetime": "2016-07-13T00:00:00",
+        "rainfall_rate": "11.47"
+    },
+    {
+        "measure_datetime": "2016-07-14T00:00:00",
+        "rainfall_rate": "9.09"
+    },
+    {
+        "measure_datetime": "2016-07-15T00:00:00",
+        "rainfall_rate": "14.31"
+    },
+    {
+        "measure_datetime": "2016-07-16T00:00:00",
+        "rainfall_rate": "3.45"
+    },
+    {
+        "measure_datetime": "2016-07-17T00:00:00",
+        "rainfall_rate": "13.70"
+    },
+    {
+        "measure_datetime": "2016-07-18T00:00:00",
+        "rainfall_rate": "7.93"
+    },
+    {
+        "measure_datetime": "2016-07-19T00:00:00",
+        "rainfall_rate": "0.14"
+    },
+    {
+        "measure_datetime": "2016-07-20T00:00:00",
+        "rainfall_rate": "14.90"
+    },
+    {
+        "measure_datetime": "2016-07-21T00:00:00",
+        "rainfall_rate": "4.25"
+    },
+    {
+        "measure_datetime": "2016-07-22T00:00:00",
+        "rainfall_rate": "4.61"
+    },
+    {
+        "measure_datetime": "2016-07-23T00:00:00",
+        "rainfall_rate": "12.08"
+    },
+    {
+        "measure_datetime": "2016-07-24T00:00:00",
+        "rainfall_rate": "8.96"
+    },
+    {
+        "measure_datetime": "2016-07-25T00:00:00",
+        "rainfall_rate": "13.37"
+    },
+    {
+        "measure_datetime": "2016-07-26T00:00:00",
+        "rainfall_rate": "12.54"
+    },
+    {
+        "measure_datetime": "2016-07-27T00:00:00",
+        "rainfall_rate": "10.97"
+    },
+    {
+        "measure_datetime": "2016-07-28T00:00:00",
+        "rainfall_rate": "1.66"
+    },
+    {
+        "measure_datetime": "2016-07-29T00:00:00",
+        "rainfall_rate": "14.89"
+    },
+    {
+        "measure_datetime": "2016-07-30T00:00:00",
+        "rainfall_rate": "4.69"
+    },
+    {
+        "measure_datetime": "2016-07-31T00:00:00",
+        "rainfall_rate": "2.11"
+    },
+    {
+        "measure_datetime": "2016-08-01T00:00:00",
+        "rainfall_rate": "11.64"
+    },
+    {
+        "measure_datetime": "2016-08-02T00:00:00",
+        "rainfall_rate": "13.89"
+    },
+    {
+        "measure_datetime": "2016-08-03T00:00:00",
+        "rainfall_rate": "6.55"
+    },
+    {
+        "measure_datetime": "2016-08-04T00:00:00",
+        "rainfall_rate": "9.41"
+    },
+    {
+        "measure_datetime": "2016-08-05T00:00:00",
+        "rainfall_rate": "14.96"
+    },
+    {
+        "measure_datetime": "2016-08-06T00:00:00",
+        "rainfall_rate": "11.71"
+    },
+    {
+        "measure_datetime": "2016-08-07T00:00:00",
+        "rainfall_rate": "3.07"
+    },
+    {
+        "measure_datetime": "2016-08-08T00:00:00",
+        "rainfall_rate": "12.05"
+    },
+    {
+        "measure_datetime": "2016-08-09T00:00:00",
+        "rainfall_rate": "7.17"
+    },
+    {
+        "measure_datetime": "2016-08-10T00:00:00",
+        "rainfall_rate": "4.69"
+    },
+    {
+        "measure_datetime": "2016-08-11T00:00:00",
+        "rainfall_rate": "11.65"
+    },
+    {
+        "measure_datetime": "2016-08-12T00:00:00",
+        "rainfall_rate": "10.89"
+    },
+    {
+        "measure_datetime": "2016-08-13T00:00:00",
+        "rainfall_rate": "0.50"
+    },
+    {
+        "measure_datetime": "2016-08-14T00:00:00",
+        "rainfall_rate": "13.09"
+    },
+    {
+        "measure_datetime": "2016-08-15T00:00:00",
+        "rainfall_rate": "0.15"
+    },
+    {
+        "measure_datetime": "2016-08-16T00:00:00",
+        "rainfall_rate": "11.31"
+    },
+    {
+        "measure_datetime": "2016-08-17T00:00:00",
+        "rainfall_rate": "9.64"
+    },
+    {
+        "measure_datetime": "2016-08-18T00:00:00",
+        "rainfall_rate": "6.94"
+    },
+    {
+        "measure_datetime": "2016-08-19T00:00:00",
+        "rainfall_rate": "9.40"
+    },
+    {
+        "measure_datetime": "2016-08-20T00:00:00",
+        "rainfall_rate": "0.95"
+    },
+    {
+        "measure_datetime": "2016-08-21T00:00:00",
+        "rainfall_rate": "4.02"
+    },
+    {
+        "measure_datetime": "2016-08-22T00:00:00",
+        "rainfall_rate": "4.38"
+    },
+    {
+        "measure_datetime": "2016-08-23T00:00:00",
+        "rainfall_rate": "5.91"
+    },
+    {
+        "measure_datetime": "2016-08-24T00:00:00",
+        "rainfall_rate": "4.35"
+    },
+    {
+        "measure_datetime": "2016-08-25T00:00:00",
+        "rainfall_rate": "12.11"
+    },
+    {
+        "measure_datetime": "2016-08-26T00:00:00",
+        "rainfall_rate": "4.58"
+    },
+    {
+        "measure_datetime": "2016-08-27T00:00:00",
+        "rainfall_rate": "6.31"
+    },
+    {
+        "measure_datetime": "2016-08-28T00:00:00",
+        "rainfall_rate": "7.58"
+    },
+    {
+        "measure_datetime": "2016-08-29T00:00:00",
+        "rainfall_rate": "14.52"
+    },
+    {
+        "measure_datetime": "2016-08-30T00:00:00",
+        "rainfall_rate": "11.72"
+    },
+    {
+        "measure_datetime": "2016-08-31T00:00:00",
+        "rainfall_rate": "9.28"
+    },
+    {
+        "measure_datetime": "2016-09-01T00:00:00",
+        "rainfall_rate": "3.91"
+    },
+    {
+        "measure_datetime": "2016-09-02T00:00:00",
+        "rainfall_rate": "6.41"
+    },
+    {
+        "measure_datetime": "2016-09-03T00:00:00",
+        "rainfall_rate": "13.93"
+    },
+    {
+        "measure_datetime": "2016-09-04T00:00:00",
+        "rainfall_rate": "7.02"
+    },
+    {
+        "measure_datetime": "2016-09-05T00:00:00",
+        "rainfall_rate": "13.02"
+    },
+    {
+        "measure_datetime": "2016-09-06T00:00:00",
+        "rainfall_rate": "11.40"
+    },
+    {
+        "measure_datetime": "2016-09-07T00:00:00",
+        "rainfall_rate": "9.83"
+    },
+    {
+        "measure_datetime": "2016-09-08T00:00:00",
+        "rainfall_rate": "2.51"
+    },
+    {
+        "measure_datetime": "2016-09-09T00:00:00",
+        "rainfall_rate": "9.64"
+    },
+    {
+        "measure_datetime": "2016-09-10T00:00:00",
+        "rainfall_rate": "12.78"
+    },
+    {
+        "measure_datetime": "2016-09-11T00:00:00",
+        "rainfall_rate": "11.51"
+    },
+    {
+        "measure_datetime": "2016-09-12T00:00:00",
+        "rainfall_rate": "1.03"
+    },
+    {
+        "measure_datetime": "2016-09-13T00:00:00",
+        "rainfall_rate": "0.08"
+    },
+    {
+        "measure_datetime": "2016-09-14T00:00:00",
+        "rainfall_rate": "4.86"
+    },
+    {
+        "measure_datetime": "2016-09-15T00:00:00",
+        "rainfall_rate": "11.33"
+    },
+    {
+        "measure_datetime": "2016-09-16T00:00:00",
+        "rainfall_rate": "2.07"
+    },
+    {
+        "measure_datetime": "2016-09-17T00:00:00",
+        "rainfall_rate": "5.48"
+    },
+    {
+        "measure_datetime": "2016-09-18T00:00:00",
+        "rainfall_rate": "1.93"
+    },
+    {
+        "measure_datetime": "2016-09-19T00:00:00",
+        "rainfall_rate": "7.35"
+    },
+    {
+        "measure_datetime": "2016-09-20T00:00:00",
+        "rainfall_rate": "11.06"
+    },
+    {
+        "measure_datetime": "2016-09-21T00:00:00",
+        "rainfall_rate": "5.82"
+    },
+    {
+        "measure_datetime": "2016-09-22T00:00:00",
+        "rainfall_rate": "1.89"
+    },
+    {
+        "measure_datetime": "2016-09-23T00:00:00",
+        "rainfall_rate": "13.55"
+    },
+    {
+        "measure_datetime": "2016-09-24T00:00:00",
+        "rainfall_rate": "8.76"
+    },
+    {
+        "measure_datetime": "2016-09-25T00:00:00",
+        "rainfall_rate": "11.59"
+    },
+    {
+        "measure_datetime": "2016-09-26T00:00:00",
+        "rainfall_rate": "9.43"
+    },
+    {
+        "measure_datetime": "2016-09-27T00:00:00",
+        "rainfall_rate": "11.69"
+    },
+    {
+        "measure_datetime": "2016-09-28T00:00:00",
+        "rainfall_rate": "7.23"
+    },
+    {
+        "measure_datetime": "2016-09-29T00:00:00",
+        "rainfall_rate": "14.24"
+    },
+    {
+        "measure_datetime": "2016-09-30T00:00:00",
+        "rainfall_rate": "3.70"
+    },
+    {
+        "measure_datetime": "2016-10-01T00:00:00",
+        "rainfall_rate": "14.61"
+    },
+    {
+        "measure_datetime": "2016-10-02T00:00:00",
+        "rainfall_rate": "1.07"
+    },
+    {
+        "measure_datetime": "2016-10-03T00:00:00",
+        "rainfall_rate": "0.20"
+    },
+    {
+        "measure_datetime": "2016-10-04T00:00:00",
+        "rainfall_rate": "10.88"
+    },
+    {
+        "measure_datetime": "2016-10-05T00:00:00",
+        "rainfall_rate": "12.00"
+    },
+    {
+        "measure_datetime": "2016-10-06T00:00:00",
+        "rainfall_rate": "14.64"
+    },
+    {
+        "measure_datetime": "2016-10-07T00:00:00",
+        "rainfall_rate": "1.47"
+    },
+    {
+        "measure_datetime": "2016-10-08T00:00:00",
+        "rainfall_rate": "5.62"
+    },
+    {
+        "measure_datetime": "2016-10-09T00:00:00",
+        "rainfall_rate": "3.02"
+    },
+    {
+        "measure_datetime": "2016-10-10T00:00:00",
+        "rainfall_rate": "2.30"
+    },
+    {
+        "measure_datetime": "2016-10-11T00:00:00",
+        "rainfall_rate": "11.71"
+    },
+    {
+        "measure_datetime": "2016-10-12T00:00:00",
+        "rainfall_rate": "8.15"
+    },
+    {
+        "measure_datetime": "2016-10-13T00:00:00",
+        "rainfall_rate": "13.06"
+    },
+    {
+        "measure_datetime": "2016-10-14T00:00:00",
+        "rainfall_rate": "6.12"
+    },
+    {
+        "measure_datetime": "2016-10-15T00:00:00",
+        "rainfall_rate": "12.79"
+    },
+    {
+        "measure_datetime": "2016-10-16T00:00:00",
+        "rainfall_rate": "13.15"
+    },
+    {
+        "measure_datetime": "2016-10-17T00:00:00",
+        "rainfall_rate": "14.50"
+    },
+    {
+        "measure_datetime": "2016-10-18T00:00:00",
+        "rainfall_rate": "8.83"
+    },
+    {
+        "measure_datetime": "2016-10-19T00:00:00",
+        "rainfall_rate": "5.82"
+    },
+    {
+        "measure_datetime": "2016-10-20T00:00:00",
+        "rainfall_rate": "9.83"
+    },
+    {
+        "measure_datetime": "2016-10-21T00:00:00",
+        "rainfall_rate": "10.67"
+    },
+    {
+        "measure_datetime": "2016-10-22T00:00:00",
+        "rainfall_rate": "11.48"
+    },
+    {
+        "measure_datetime": "2016-10-23T00:00:00",
+        "rainfall_rate": "2.00"
+    },
+    {
+        "measure_datetime": "2016-10-24T00:00:00",
+        "rainfall_rate": "14.68"
+    },
+    {
+        "measure_datetime": "2016-10-25T00:00:00",
+        "rainfall_rate": "2.05"
+    },
+    {
+        "measure_datetime": "2016-10-26T00:00:00",
+        "rainfall_rate": "8.13"
+    },
+    {
+        "measure_datetime": "2016-10-27T00:00:00",
+        "rainfall_rate": "7.10"
+    },
+    {
+        "measure_datetime": "2016-10-28T00:00:00",
+        "rainfall_rate": "5.62"
+    },
+    {
+        "measure_datetime": "2016-10-29T00:00:00",
+        "rainfall_rate": "6.51"
+    },
+    {
+        "measure_datetime": "2016-10-30T00:00:00",
+        "rainfall_rate": "8.52"
+    },
+    {
+        "measure_datetime": "2016-10-31T00:00:00",
+        "rainfall_rate": "14.69"
+    },
+    {
+        "measure_datetime": "2016-11-01T00:00:00",
+        "rainfall_rate": "2.44"
+    },
+    {
+        "measure_datetime": "2016-11-02T00:00:00",
+        "rainfall_rate": "14.35"
+    },
+    {
+        "measure_datetime": "2016-11-03T00:00:00",
+        "rainfall_rate": "14.40"
+    },
+    {
+        "measure_datetime": "2016-11-04T00:00:00",
+        "rainfall_rate": "12.89"
+    },
+    {
+        "measure_datetime": "2016-11-05T00:00:00",
+        "rainfall_rate": "9.67"
+    },
+    {
+        "measure_datetime": "2016-11-06T00:00:00",
+        "rainfall_rate": "9.17"
+    },
+    {
+        "measure_datetime": "2016-11-07T00:00:00",
+        "rainfall_rate": "14.21"
+    },
+    {
+        "measure_datetime": "2016-11-08T00:00:00",
+        "rainfall_rate": "3.62"
+    },
+    {
+        "measure_datetime": "2016-11-09T00:00:00",
+        "rainfall_rate": "8.99"
+    },
+    {
+        "measure_datetime": "2016-11-10T00:00:00",
+        "rainfall_rate": "3.67"
+    },
+    {
+        "measure_datetime": "2016-11-11T00:00:00",
+        "rainfall_rate": "14.98"
+    },
+    {
+        "measure_datetime": "2016-11-12T00:00:00",
+        "rainfall_rate": "13.40"
+    },
+    {
+        "measure_datetime": "2016-11-13T00:00:00",
+        "rainfall_rate": "12.92"
+    },
+    {
+        "measure_datetime": "2016-11-14T00:00:00",
+        "rainfall_rate": "14.09"
+    },
+    {
+        "measure_datetime": "2016-11-15T00:00:00",
+        "rainfall_rate": "7.88"
+    },
+    {
+        "measure_datetime": "2016-11-16T00:00:00",
+        "rainfall_rate": "10.40"
+    },
+    {
+        "measure_datetime": "2016-11-17T00:00:00",
+        "rainfall_rate": "11.60"
+    },
+    {
+        "measure_datetime": "2016-11-18T00:00:00",
+        "rainfall_rate": "13.14"
+    },
+    {
+        "measure_datetime": "2016-11-19T00:00:00",
+        "rainfall_rate": "14.47"
+    },
+    {
+        "measure_datetime": "2016-11-20T00:00:00",
+        "rainfall_rate": "6.93"
+    },
+    {
+        "measure_datetime": "2016-11-21T00:00:00",
+        "rainfall_rate": "8.59"
+    },
+    {
+        "measure_datetime": "2016-11-22T00:00:00",
+        "rainfall_rate": "2.12"
+    },
+    {
+        "measure_datetime": "2016-11-23T00:00:00",
+        "rainfall_rate": "2.38"
+    },
+    {
+        "measure_datetime": "2016-11-24T00:00:00",
+        "rainfall_rate": "5.10"
+    },
+    {
+        "measure_datetime": "2016-11-25T00:00:00",
+        "rainfall_rate": "1.70"
+    },
+    {
+        "measure_datetime": "2016-11-26T00:00:00",
+        "rainfall_rate": "7.34"
+    },
+    {
+        "measure_datetime": "2016-11-27T00:00:00",
+        "rainfall_rate": "1.82"
+    },
+    {
+        "measure_datetime": "2016-11-28T00:00:00",
+        "rainfall_rate": "2.67"
+    },
+    {
+        "measure_datetime": "2016-11-29T00:00:00",
+        "rainfall_rate": "12.56"
+    },
+    {
+        "measure_datetime": "2016-11-30T00:00:00",
+        "rainfall_rate": "1.01"
+    },
+    {
+        "measure_datetime": "2016-12-01T00:00:00",
+        "rainfall_rate": "13.76"
+    },
+    {
+        "measure_datetime": "2016-12-02T00:00:00",
+        "rainfall_rate": "8.24"
+    },
+    {
+        "measure_datetime": "2016-12-03T00:00:00",
+        "rainfall_rate": "1.36"
+    },
+    {
+        "measure_datetime": "2016-12-04T00:00:00",
+        "rainfall_rate": "8.62"
+    },
+    {
+        "measure_datetime": "2016-12-05T00:00:00",
+        "rainfall_rate": "11.00"
+    },
+    {
+        "measure_datetime": "2016-12-06T00:00:00",
+        "rainfall_rate": "0.41"
+    },
+    {
+        "measure_datetime": "2016-12-07T00:00:00",
+        "rainfall_rate": "9.14"
+    },
+    {
+        "measure_datetime": "2016-12-08T00:00:00",
+        "rainfall_rate": "12.80"
+    },
+    {
+        "measure_datetime": "2016-12-09T00:00:00",
+        "rainfall_rate": "10.03"
+    },
+    {
+        "measure_datetime": "2016-12-10T00:00:00",
+        "rainfall_rate": "3.72"
+    },
+    {
+        "measure_datetime": "2016-12-11T00:00:00",
+        "rainfall_rate": "5.80"
+    },
+    {
+        "measure_datetime": "2016-12-12T00:00:00",
+        "rainfall_rate": "4.06"
+    },
+    {
+        "measure_datetime": "2016-12-13T00:00:00",
+        "rainfall_rate": "8.27"
+    },
+    {
+        "measure_datetime": "2016-12-14T00:00:00",
+        "rainfall_rate": "11.10"
+    },
+    {
+        "measure_datetime": "2016-12-15T00:00:00",
+        "rainfall_rate": "2.40"
+    },
+    {
+        "measure_datetime": "2016-12-16T00:00:00",
+        "rainfall_rate": "10.80"
+    },
+    {
+        "measure_datetime": "2016-12-17T00:00:00",
+        "rainfall_rate": "11.82"
+    },
+    {
+        "measure_datetime": "2016-12-18T00:00:00",
+        "rainfall_rate": "1.86"
+    },
+    {
+        "measure_datetime": "2016-12-19T00:00:00",
+        "rainfall_rate": "1.72"
+    },
+    {
+        "measure_datetime": "2016-12-20T00:00:00",
+        "rainfall_rate": "8.73"
+    },
+    {
+        "measure_datetime": "2016-12-21T00:00:00",
+        "rainfall_rate": "7.07"
+    },
+    {
+        "measure_datetime": "2016-12-22T00:00:00",
+        "rainfall_rate": "0.98"
+    },
+    {
+        "measure_datetime": "2016-12-23T00:00:00",
+        "rainfall_rate": "7.48"
+    },
+    {
+        "measure_datetime": "2016-12-24T00:00:00",
+        "rainfall_rate": "5.95"
+    },
+    {
+        "measure_datetime": "2016-12-25T00:00:00",
+        "rainfall_rate": "9.95"
+    },
+    {
+        "measure_datetime": "2016-12-26T00:00:00",
+        "rainfall_rate": "12.57"
+    },
+    {
+        "measure_datetime": "2016-12-27T00:00:00",
+        "rainfall_rate": "8.94"
+    },
+    {
+        "measure_datetime": "2016-12-28T00:00:00",
+        "rainfall_rate": "10.46"
+    },
+    {
+        "measure_datetime": "2016-12-29T00:00:00",
+        "rainfall_rate": "1.06"
+    },
+    {
+        "measure_datetime": "2016-12-30T00:00:00",
+        "rainfall_rate": "10.67"
+    },
+    {
+        "measure_datetime": "2016-12-31T00:00:00",
+        "rainfall_rate": "2.14"
+    },
+    {
+        "measure_datetime": "2017-01-01T00:00:00",
+        "rainfall_rate": "4.07"
+    },
+    {
+        "measure_datetime": "2017-01-02T00:00:00",
+        "rainfall_rate": "12.46"
+    },
+    {
+        "measure_datetime": "2017-01-03T00:00:00",
+        "rainfall_rate": "3.16"
+    },
+    {
+        "measure_datetime": "2017-01-04T00:00:00",
+        "rainfall_rate": "10.43"
+    },
+    {
+        "measure_datetime": "2017-01-05T00:00:00",
+        "rainfall_rate": "2.47"
+    },
+    {
+        "measure_datetime": "2017-01-06T00:00:00",
+        "rainfall_rate": "9.95"
+    },
+    {
+        "measure_datetime": "2017-01-07T00:00:00",
+        "rainfall_rate": "13.95"
+    },
+    {
+        "measure_datetime": "2017-01-08T00:00:00",
+        "rainfall_rate": "9.27"
+    },
+    {
+        "measure_datetime": "2017-01-09T00:00:00",
+        "rainfall_rate": "0.14"
+    },
+    {
+        "measure_datetime": "2017-01-10T00:00:00",
+        "rainfall_rate": "9.27"
+    },
+    {
+        "measure_datetime": "2017-01-11T00:00:00",
+        "rainfall_rate": "12.08"
+    },
+    {
+        "measure_datetime": "2017-01-12T00:00:00",
+        "rainfall_rate": "6.80"
+    },
+    {
+        "measure_datetime": "2017-01-13T00:00:00",
+        "rainfall_rate": "13.01"
+    },
+    {
+        "measure_datetime": "2017-01-14T00:00:00",
+        "rainfall_rate": "12.34"
+    },
+    {
+        "measure_datetime": "2017-01-15T00:00:00",
+        "rainfall_rate": "6.95"
+    },
+    {
+        "measure_datetime": "2017-01-16T00:00:00",
+        "rainfall_rate": "14.46"
+    },
+    {
+        "measure_datetime": "2017-01-17T00:00:00",
+        "rainfall_rate": "3.28"
+    },
+    {
+        "measure_datetime": "2017-01-18T00:00:00",
+        "rainfall_rate": "3.60"
+    },
+    {
+        "measure_datetime": "2017-01-19T00:00:00",
+        "rainfall_rate": "5.29"
+    },
+    {
+        "measure_datetime": "2017-01-20T00:00:00",
+        "rainfall_rate": "14.77"
+    },
+    {
+        "measure_datetime": "2017-01-21T00:00:00",
+        "rainfall_rate": "9.89"
+    },
+    {
+        "measure_datetime": "2017-01-22T00:00:00",
+        "rainfall_rate": "11.45"
+    },
+    {
+        "measure_datetime": "2017-01-23T00:00:00",
+        "rainfall_rate": "8.06"
+    },
+    {
+        "measure_datetime": "2017-01-24T00:00:00",
+        "rainfall_rate": "0.76"
+    },
+    {
+        "measure_datetime": "2017-01-25T00:00:00",
+        "rainfall_rate": "4.10"
+    },
+    {
+        "measure_datetime": "2017-01-26T00:00:00",
+        "rainfall_rate": "10.05"
+    },
+    {
+        "measure_datetime": "2017-01-27T00:00:00",
+        "rainfall_rate": "12.64"
+    },
+    {
+        "measure_datetime": "2017-01-28T00:00:00",
+        "rainfall_rate": "1.05"
+    },
+    {
+        "measure_datetime": "2017-01-29T00:00:00",
+        "rainfall_rate": "12.03"
+    },
+    {
+        "measure_datetime": "2017-01-30T00:00:00",
+        "rainfall_rate": "6.74"
+    },
+    {
+        "measure_datetime": "2017-01-31T00:00:00",
+        "rainfall_rate": "13.53"
+    },
+    {
+        "measure_datetime": "2017-02-01T00:00:00",
+        "rainfall_rate": "8.11"
+    },
+    {
+        "measure_datetime": "2017-02-02T00:00:00",
+        "rainfall_rate": "14.13"
+    },
+    {
+        "measure_datetime": "2017-02-03T00:00:00",
+        "rainfall_rate": "6.63"
+    },
+    {
+        "measure_datetime": "2017-02-04T00:00:00",
+        "rainfall_rate": "1.37"
+    },
+    {
+        "measure_datetime": "2017-02-05T00:00:00",
+        "rainfall_rate": "12.80"
+    },
+    {
+        "measure_datetime": "2017-02-06T00:00:00",
+        "rainfall_rate": "5.37"
+    },
+    {
+        "measure_datetime": "2017-02-07T00:00:00",
+        "rainfall_rate": "11.60"
+    },
+    {
+        "measure_datetime": "2017-02-08T00:00:00",
+        "rainfall_rate": "10.88"
+    },
+    {
+        "measure_datetime": "2017-02-09T00:00:00",
+        "rainfall_rate": "12.20"
+    },
+    {
+        "measure_datetime": "2017-02-10T00:00:00",
+        "rainfall_rate": "6.94"
+    },
+    {
+        "measure_datetime": "2017-02-11T00:00:00",
+        "rainfall_rate": "1.47"
+    },
+    {
+        "measure_datetime": "2017-02-12T00:00:00",
+        "rainfall_rate": "5.07"
+    },
+    {
+        "measure_datetime": "2017-02-13T00:00:00",
+        "rainfall_rate": "11.39"
+    },
+    {
+        "measure_datetime": "2017-02-14T00:00:00",
+        "rainfall_rate": "8.25"
+    },
+    {
+        "measure_datetime": "2017-02-15T00:00:00",
+        "rainfall_rate": "6.00"
+    },
+    {
+        "measure_datetime": "2017-02-16T00:00:00",
+        "rainfall_rate": "8.93"
+    },
+    {
+        "measure_datetime": "2017-02-17T00:00:00",
+        "rainfall_rate": "8.31"
+    },
+    {
+        "measure_datetime": "2017-02-18T00:00:00",
+        "rainfall_rate": "7.74"
+    },
+    {
+        "measure_datetime": "2017-02-19T00:00:00",
+        "rainfall_rate": "1.14"
+    },
+    {
+        "measure_datetime": "2017-02-20T00:00:00",
+        "rainfall_rate": "14.75"
+    },
+    {
+        "measure_datetime": "2017-02-21T00:00:00",
+        "rainfall_rate": "7.55"
+    },
+    {
+        "measure_datetime": "2017-02-22T00:00:00",
+        "rainfall_rate": "7.52"
+    },
+    {
+        "measure_datetime": "2017-02-23T00:00:00",
+        "rainfall_rate": "1.82"
+    },
+    {
+        "measure_datetime": "2017-02-24T00:00:00",
+        "rainfall_rate": "12.19"
+    },
+    {
+        "measure_datetime": "2017-02-25T00:00:00",
+        "rainfall_rate": "3.83"
+    },
+    {
+        "measure_datetime": "2017-02-26T00:00:00",
+        "rainfall_rate": "12.85"
+    },
+    {
+        "measure_datetime": "2017-02-27T00:00:00",
+        "rainfall_rate": "10.59"
+    },
+    {
+        "measure_datetime": "2017-02-28T00:00:00",
+        "rainfall_rate": "3.67"
+    },
+    {
+        "measure_datetime": "2017-03-01T00:00:00",
+        "rainfall_rate": "2.67"
+    },
+    {
+        "measure_datetime": "2017-03-02T00:00:00",
+        "rainfall_rate": "13.67"
+    },
+    {
+        "measure_datetime": "2017-03-03T00:00:00",
+        "rainfall_rate": "13.56"
+    },
+    {
+        "measure_datetime": "2017-03-04T00:00:00",
+        "rainfall_rate": "4.03"
+    },
+    {
+        "measure_datetime": "2017-03-05T00:00:00",
+        "rainfall_rate": "8.31"
+    },
+    {
+        "measure_datetime": "2017-03-06T00:00:00",
+        "rainfall_rate": "6.80"
+    },
+    {
+        "measure_datetime": "2017-03-07T00:00:00",
+        "rainfall_rate": "0.66"
+    },
+    {
+        "measure_datetime": "2017-03-08T00:00:00",
+        "rainfall_rate": "9.63"
+    },
+    {
+        "measure_datetime": "2017-03-09T00:00:00",
+        "rainfall_rate": "0.01"
+    },
+    {
+        "measure_datetime": "2017-03-10T00:00:00",
+        "rainfall_rate": "0.14"
+    },
+    {
+        "measure_datetime": "2017-03-11T00:00:00",
+        "rainfall_rate": "12.54"
+    },
+    {
+        "measure_datetime": "2017-03-12T00:00:00",
+        "rainfall_rate": "2.29"
+    },
+    {
+        "measure_datetime": "2017-03-13T00:00:00",
+        "rainfall_rate": "10.31"
+    },
+    {
+        "measure_datetime": "2017-03-14T00:00:00",
+        "rainfall_rate": "1.88"
+    },
+    {
+        "measure_datetime": "2017-03-15T00:00:00",
+        "rainfall_rate": "5.56"
+    },
+    {
+        "measure_datetime": "2017-03-16T00:00:00",
+        "rainfall_rate": "1.87"
+    },
+    {
+        "measure_datetime": "2017-03-17T00:00:00",
+        "rainfall_rate": "7.31"
+    },
+    {
+        "measure_datetime": "2017-03-18T00:00:00",
+        "rainfall_rate": "8.97"
+    },
+    {
+        "measure_datetime": "2017-03-19T00:00:00",
+        "rainfall_rate": "10.22"
+    },
+    {
+        "measure_datetime": "2017-03-20T00:00:00",
+        "rainfall_rate": "4.82"
+    },
+    {
+        "measure_datetime": "2017-03-21T00:00:00",
+        "rainfall_rate": "10.83"
+    },
+    {
+        "measure_datetime": "2017-03-22T00:00:00",
+        "rainfall_rate": "1.73"
+    },
+    {
+        "measure_datetime": "2017-03-23T00:00:00",
+        "rainfall_rate": "3.36"
+    },
+    {
+        "measure_datetime": "2017-03-24T00:00:00",
+        "rainfall_rate": "8.33"
+    },
+    {
+        "measure_datetime": "2017-03-25T00:00:00",
+        "rainfall_rate": "1.99"
+    },
+    {
+        "measure_datetime": "2017-03-26T00:00:00",
+        "rainfall_rate": "0.24"
+    },
+    {
+        "measure_datetime": "2017-03-27T00:00:00",
+        "rainfall_rate": "1.92"
+    },
+    {
+        "measure_datetime": "2017-03-28T00:00:00",
+        "rainfall_rate": "2.12"
+    },
+    {
+        "measure_datetime": "2017-03-29T00:00:00",
+        "rainfall_rate": "2.52"
+    },
+    {
+        "measure_datetime": "2017-03-30T00:00:00",
+        "rainfall_rate": "2.43"
+    },
+    {
+        "measure_datetime": "2017-03-31T00:00:00",
+        "rainfall_rate": "14.04"
+    },
+    {
+        "measure_datetime": "2017-04-01T00:00:00",
+        "rainfall_rate": "7.56"
+    },
+    {
+        "measure_datetime": "2017-04-02T00:00:00",
+        "rainfall_rate": "6.93"
+    },
+    {
+        "measure_datetime": "2017-04-03T00:00:00",
+        "rainfall_rate": "5.07"
+    },
+    {
+        "measure_datetime": "2017-04-04T00:00:00",
+        "rainfall_rate": "1.94"
+    },
+    {
+        "measure_datetime": "2017-04-05T00:00:00",
+        "rainfall_rate": "13.42"
+    },
+    {
+        "measure_datetime": "2017-04-06T00:00:00",
+        "rainfall_rate": "2.23"
+    },
+    {
+        "measure_datetime": "2017-04-07T00:00:00",
+        "rainfall_rate": "11.52"
+    },
+    {
+        "measure_datetime": "2017-04-08T00:00:00",
+        "rainfall_rate": "3.56"
+    },
+    {
+        "measure_datetime": "2017-04-09T00:00:00",
+        "rainfall_rate": "5.02"
+    },
+    {
+        "measure_datetime": "2017-04-10T00:00:00",
+        "rainfall_rate": "14.73"
+    },
+    {
+        "measure_datetime": "2017-04-11T00:00:00",
+        "rainfall_rate": "0.85"
+    },
+    {
+        "measure_datetime": "2017-04-12T00:00:00",
+        "rainfall_rate": "3.13"
+    },
+    {
+        "measure_datetime": "2017-04-13T00:00:00",
+        "rainfall_rate": "6.21"
+    },
+    {
+        "measure_datetime": "2017-04-14T00:00:00",
+        "rainfall_rate": "11.88"
+    },
+    {
+        "measure_datetime": "2017-04-15T00:00:00",
+        "rainfall_rate": "13.15"
+    },
+    {
+        "measure_datetime": "2017-04-16T00:00:00",
+        "rainfall_rate": "12.13"
+    },
+    {
+        "measure_datetime": "2017-04-17T00:00:00",
+        "rainfall_rate": "4.61"
+    },
+    {
+        "measure_datetime": "2017-04-18T00:00:00",
+        "rainfall_rate": "1.87"
+    },
+    {
+        "measure_datetime": "2017-04-19T00:00:00",
+        "rainfall_rate": "3.35"
+    },
+    {
+        "measure_datetime": "2017-04-20T00:00:00",
+        "rainfall_rate": "10.28"
+    },
+    {
+        "measure_datetime": "2017-04-21T00:00:00",
+        "rainfall_rate": "2.41"
+    },
+    {
+        "measure_datetime": "2017-04-22T00:00:00",
+        "rainfall_rate": "0.79"
+    },
+    {
+        "measure_datetime": "2017-04-23T00:00:00",
+        "rainfall_rate": "5.31"
+    },
+    {
+        "measure_datetime": "2017-04-24T00:00:00",
+        "rainfall_rate": "10.56"
+    },
+    {
+        "measure_datetime": "2017-04-25T00:00:00",
+        "rainfall_rate": "8.47"
+    },
+    {
+        "measure_datetime": "2017-04-26T00:00:00",
+        "rainfall_rate": "9.82"
+    },
+    {
+        "measure_datetime": "2017-04-27T00:00:00",
+        "rainfall_rate": "12.20"
+    },
+    {
+        "measure_datetime": "2017-04-28T00:00:00",
+        "rainfall_rate": "7.85"
+    },
+    {
+        "measure_datetime": "2017-04-29T00:00:00",
+        "rainfall_rate": "13.26"
+    },
+    {
+        "measure_datetime": "2017-04-30T00:00:00",
+        "rainfall_rate": "13.06"
+    },
+    {
+        "measure_datetime": "2017-05-01T00:00:00",
+        "rainfall_rate": "4.33"
+    },
+    {
+        "measure_datetime": "2017-05-02T00:00:00",
+        "rainfall_rate": "14.19"
+    },
+    {
+        "measure_datetime": "2017-05-03T00:00:00",
+        "rainfall_rate": "10.01"
+    },
+    {
+        "measure_datetime": "2017-05-04T00:00:00",
+        "rainfall_rate": "1.29"
+    },
+    {
+        "measure_datetime": "2017-05-05T00:00:00",
+        "rainfall_rate": "9.94"
+    },
+    {
+        "measure_datetime": "2017-05-06T00:00:00",
+        "rainfall_rate": "8.92"
+    },
+    {
+        "measure_datetime": "2017-05-07T00:00:00",
+        "rainfall_rate": "5.09"
+    },
+    {
+        "measure_datetime": "2017-05-08T00:00:00",
+        "rainfall_rate": "10.06"
+    },
+    {
+        "measure_datetime": "2017-05-09T00:00:00",
+        "rainfall_rate": "14.62"
+    },
+    {
+        "measure_datetime": "2017-05-10T00:00:00",
+        "rainfall_rate": "0.24"
     }
 ]
