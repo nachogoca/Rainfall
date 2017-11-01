@@ -2,7 +2,7 @@
 
 Rainfall monitoring web application. Users can upload their own rain gauge observations and download others. 
 
-This project was made at ITESO, in the context of the Professional Application Project (PAP) "4D08 Desarrollo tecnológico para la sustentabilidad ambiental, energética y alimentaria" guided by Prof. Hugo de Alba Martínez. To see live page go to http://hami1981.pythonanywhere.com/ 
+This project was made at ITESO, in the context of the Professional Application Project (PAP) "4D08 Desarrollo tecnológico para la sustentabilidad ambiental, energética y alimentaria" guided by Prof. Hugo de Alba Martínez. To see live page go to http://hami1981.pythonanywhere.com/observatories/rainfall
 
 ## Getting Started
 
